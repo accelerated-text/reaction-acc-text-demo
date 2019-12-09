@@ -17,7 +17,7 @@ prepare-env:
 	cp reaction/.env.example reaction/.env
 
 prepare-plugin:
-	(cd reaction/imports/plugins/custom/ && git clone git@github.com:tokenmill/reaction-acc-text-import.git)
+	(cd reaction/imports/plugins/custom/ && (test -e reaction-acc-text-import || git clone git@github.com:tokenmill/reaction-acc-text-import.git))
 
 run: create-networks normalize-docker-compose prepare-plugin prepare-env
 	docker-compose -f reaction/docker-compose.yml -f reaction-hydra/docker-compose.yml -f example-storefront/docker-compose.yml -f accelerated-text/docker-compose.yml  up
