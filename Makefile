@@ -19,10 +19,13 @@ prepare-env:
 prepare-plugin:
 	(cd reaction/imports/plugins/custom/ && (test -e reaction-acc-text-import || git clone git@github.com:tokenmill/reaction-acc-text-import.git))
 
+prepare-data:
+	curl -XPOST http://localhost:3001/_graphql -H 'Content-Type: application/json' -d @data/authorship_plan.json
+
 init:
 	git submodule update --init --recursive
 
 run: init create-networks normalize-docker-compose prepare-plugin prepare-env
-	docker-compose -f reaction/docker-compose.yml -f reaction-hydra/docker-compose.yml -f example-storefront/docker-compose.yml -f accelerated-text/docker-compose.yml  up
+	docker-compose -f reaction/docker-compose.yml -f reaction-hydra/docker-compose.yml -f example-storefront/docker-compose.yml -f accelerated-text/docker-compose.yml -f accelerated-text/docker-compose.front-end.yml  up
 
 clean: remove-networks
