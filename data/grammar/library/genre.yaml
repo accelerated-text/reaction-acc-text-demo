@@ -1,0 +1,20 @@
+members:
+  - is
+roles:
+  - Theme
+  - Category
+frames:
+  - example: This book is in Thriller genre
+    syntax:
+      - pos: LEX
+        value: This
+      - pos: NP
+        role: Theme
+      - pos: VERB
+      - pos: ADP
+        value: in
+      - pos: NP
+        role: Category
+      - pos: LEX
+        value: genre
+    
