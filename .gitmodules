@@ -10,6 +10,3 @@
 [submodule "accelerated-text"]
 	path = accelerated-text
 	url = git@github.com:tokenmill/accelerated-text.git
-[submodule "reaction-acc-text-import"]
-	path = reaction/imports/plugins/custom/reaction-acc-text-import
-	url = git@github.com:tokenmill/reaction-acc-text-import.git
