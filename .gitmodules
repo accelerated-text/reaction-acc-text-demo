@@ -1,0 +1,12 @@
+[submodule "reaction"]
+	path = reaction
+	url = git@github.com:/reactioncommerce/reaction.git
+[submodule "reaction-hydra"]
+	path = reaction-hydra
+	url = git@github.com:/reactioncommerce/reaction-hydra.git
+[submodule "example-storefront"]
+	path = example-storefront
+	url = git@github.com:/reactioncommerce/example-storefront.git
+[submodule "accelerated-text"]
+	path = accelerated-text
+	url = git@github.com:tokenmill/accelerated-text.git
