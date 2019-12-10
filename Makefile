@@ -15,7 +15,7 @@ normalize-docker-compose:
 	sed -i "s/\.\/grammar/..\/data\/grammar/g" accelerated-text/docker-compose.yml
 
 prepare-env:
-	cp reaction/.env.example reaction/.env && cp example-storefront/.env.example example-storefornt/.en
+	cp reaction/.env.example reaction/.env && cp example-storefront/.env.example example-storefront/.env
 
 prepare-plugin:
 	(cd reaction/imports/plugins/custom/ && (test -e reaction-acc-text-import || git clone git@github.com:tokenmill/reaction-acc-text-import.git))
