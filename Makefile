@@ -11,7 +11,7 @@ remove-networks:
 normalize-docker-compose:
 	sed -i "1s/.*/version: '3.4'/g" */docker-compose.yml && \
 	sed -i "1s/.*/version: '3.4'/g" accelerated-text/docker-compose.front-end.yml && \
-	sed -i "s/context: \.$/context: \..\/accelerated-text\//g" accelerated-text/docker-compose.* && \
+	sed -i "s/context: \.$$/context: \..\/accelerated-text\//g" accelerated-text/docker-compose.* && \
 	sed -i "s/\.\/grammar/..\/data\/grammar/g" accelerated-text/docker-compose.yml
 
 prepare-env:
