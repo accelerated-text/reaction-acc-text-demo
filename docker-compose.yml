@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: bash -c 'sh prepare-data.sh'
+    command: 'sh prepare-data.sh'
     environment:
-      WAIT_FOR_URL: http://acc-text-api:3001/health
+      ACC_TEXT_URL: http://acc-text-api:3001
     restart: on-failure
