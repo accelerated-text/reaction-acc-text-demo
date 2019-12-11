@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  document-plans-setup:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bash -c 'sh prepare-data.sh'
+    environment:
+      WAIT_FOR_URL: http://acc-text-api:3001/health
+    restart: on-failure
