@@ -17,6 +17,7 @@ normalize-docker-compose:
 	sed -i "1s/.*/version: '3.4'/g" accelerated-text/docker-compose.front-end.yml && \
 	sed -i "s/context: \.$$/context: \.\/accelerated-text\//g" accelerated-text/docker-compose.* && \
 	sed -i "s/context: \.$$/context: \.\/reaction\//g" reaction/docker-compose.* && \
+	sed -i "s/context: \.$$/context: \.\/example-storefront\//g" example-storefront/docker-compose.* && \
 	sed -i "s/\.\/grammar/.\/data\/grammar/g" accelerated-text/docker-compose.yml && \
 	sed -i "s/\.:/\.\/example-storefront:/g" example-storefront/docker-compose.yml
 	sed -i "s/\.:/\.\/reaction:/g" reaction/docker-compose.yml
@@ -33,7 +34,10 @@ prepare-data:
 init:
 	git submodule update --init --recursive
 
-build: init create-networks normalize-docker-compose prepare-env prepare-plugin
+pull-latest:
+	git pull --recurse-submodules
+
+build: create-networks normalize-docker-compose prepare-env prepare-plugin
 	docker-compose $(DOCKER_COMPOSES) build
 
 run: build
