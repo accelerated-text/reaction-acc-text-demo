@@ -2,3 +2,5 @@
 
 echo "Uploading data to: ${ACC_TEXT_URL}"
 curl -XPOST ${ACC_TEXT_URL}/_graphql -H 'Content-Type: application/json' -d @authorship_plan.json
+curl -XPOST ${ACC_TEXT_URL}/_graphql -H 'Content-Type: application/json' -d @dress_plan.json
+
