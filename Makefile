@@ -33,7 +33,7 @@ prepare-data:
 init:
 	git submodule update --init --recursive
 
-build: init create-networks normalize-docker-compose prepare-plugin prepare-env
+build: init create-networks normalize-docker-compose prepare-env prepare-plugin
 	docker-compose $(DOCKER_COMPOSES) build
 
 run: build
