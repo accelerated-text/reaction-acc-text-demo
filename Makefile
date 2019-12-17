@@ -31,8 +31,11 @@ prepare-plugin:
 prepare-data:
 	sh data/prepare-data.sh
 
-init:
+.init:
 	git submodule update --init --recursive
+	touch .init
+
+init: .init
 
 pull-latest:
 	git pull --recurse-submodules
