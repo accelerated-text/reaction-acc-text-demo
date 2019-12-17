@@ -46,7 +46,7 @@ pull-latest:
 build: create-networks normalize-docker-compose prepare-env prepare-plugin
 	docker-compose $(DOCKER_COMPOSES) build
 
-run: build
+run: init build
 	docker-compose $(DOCKER_COMPOSES) up
 
 clean: remove-networks
