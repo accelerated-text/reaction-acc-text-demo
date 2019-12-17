@@ -1,4 +1,4 @@
-DOCKER_COMPOSES=-f docker-compose.yml -f reaction/docker-compose.yml -f example-storefront/docker-compose.yml -f accelerated-text/docker-compose.yml
+DOCKER_COMPOSES=-f docker-compose.yml -f reaction/docker-compose.yml -f example-storefront/docker-compose.yml -f accelerated-text/docker-compose.yml -f accelerated-text/docker-compose.front-end.yml
 
 
 
@@ -15,9 +15,12 @@ remove-networks:
 normalize-docker-compose:
 	sed -i "1s/.*/version: '3.4'/g" */docker-compose.yml && \
 	sed -i "1s/.*/version: '3.4'/g" accelerated-text/docker-compose.front-end.yml && \
-	sed -i "s/context: \.$$/context: \.\/accelerated-text\//g" accelerated-text/docker-compose.* && \
+	sed -i "s/context: \.$$/context: \.\/accelerated-text\//g" accelerated-text/docker-compose.yml && \
+	sed -i "s/context: front-end\/$$/context: \.\/accelerated-text\/front-end\//g" accelerated-text/docker-compose.front-end.yml && \
 	sed -i "s/context: \.$$/context: \.\/reaction\//g" reaction/docker-compose.* && \
 	sed -i "s/context: \.$$/context: \.\/example-storefront\//g" example-storefront/docker-compose.* && \
+	sed -i "s/\.\/api/\.\/accelerated-text\/api/g" accelerated-text/docker-compose.front-end.yml && \
+	sed -i "s/\.\/docs/\.\/accelerated-text\/docs/g" accelerated-text/docker-compose.front-end.yml && \
 	sed -i "s/\.\/grammar/.\/data\/grammar/g" accelerated-text/docker-compose.yml && \
 	sed -i "s/\.:/\.\/example-storefront:/g" example-storefront/docker-compose.yml
 	sed -i "s/\.:/\.\/reaction:/g" reaction/docker-compose.yml
