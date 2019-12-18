@@ -2,6 +2,12 @@
 
 Consolidated project of Reaction ECommerce and Accelerated Text
 
+The following video demonstrates the whole process of Accelerated Text working together with Reaction Commerce to 
+privide descriptions for the e-shop products
+
+[![Porduct descriptions with Accelerated Text and Reaction Commerce](http://img.youtube.com/vi/uyumlEabU2c/0.jpg)](http://www.youtube.com/watch?v=uyumlEabU2c "acc-text-react-comm")
+
+
 # Quick start
 
 - `make run` should start up everything.
