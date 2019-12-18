@@ -18,6 +18,8 @@ frames:
         value: "is"
       - pos: VERB
         value: "made"
+      - pos: LEX
+        value: "of"
       - pos: NP
         role: Material
       - pos: LEX
