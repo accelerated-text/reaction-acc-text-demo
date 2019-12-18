@@ -1,9 +1,9 @@
 # Accelerated Text Import to Reaction ECommerce Demo
 
-Consolidated project of Reaction ECommerce and Accelerated Text
+Integration between Reaction ECommerce and Accelerated Text to provide product descriptions in Reaction run e-shop.
 
 The following video demonstrates the whole process of Accelerated Text working together with Reaction Commerce to 
-privide descriptions for the e-shop products
+privide the product descriptions.
 
 [![Porduct descriptions with Accelerated Text and Reaction Commerce](http://img.youtube.com/vi/uyumlEabU2c/0.jpg)](http://www.youtube.com/watch?v=uyumlEabU2c "acc-text-react-comm")
 
