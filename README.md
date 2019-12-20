@@ -1,4 +1,4 @@
-# Accelerated Text Import to Reaction ECommerce Demo
+# Accelerated Text Import to Reaction Commerce Demo
 
 Integration between [Reaction Commerce](https://www.reactioncommerce.com/index) and [Accelerated Text](https://github.com/tokenmill/accelerated-text) to provide product descriptions in Reaction run e-shop.
 
