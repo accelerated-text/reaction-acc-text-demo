@@ -5,7 +5,7 @@ Integration between [Reaction Commerce](https://www.reactioncommerce.com/index) 
 The following video demonstrates the whole process of Accelerated Text working together with Reaction Commerce to 
 privide the product descriptions.
 
-[![Porduct descriptions with Accelerated Text and Reaction Commerce](http://img.youtube.com/vi/uyumlEabU2c/0.jpg)](http://www.youtube.com/watch?v=uyumlEabU2c "acc-text-react-comm")
+[![Porduct descriptions with Accelerated Text and Reaction Commerce](https://raw.githubusercontent.com/tokenmill/reaction-acc-text-demo/master/accelerated-text-screenshot.png)](http://www.youtube.com/watch?v=uyumlEabU2c "acc-text-react-comm")
 
 
 # Quick start
