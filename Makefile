@@ -29,7 +29,7 @@ prepare-env:
 	cat reaction/.env.example  > .env && cat example-storefront/.env.example >> .env
 
 prepare-plugin:
-	(cd reaction/imports/plugins/custom/ && (test -e reaction-acc-text-import || git clone git@github.com:tokenmill/reaction-acc-text-import.git) && git pull origin master)
+	(cd reaction/imports/plugins/custom/ && (test -e reaction-acc-text-import || git clone git@github.com:tokenmill/reaction-acc-text-import.git) && (cd reaction-acc-text-import && git pull origin master))
 
 prepare-data:
 	sh data/prepare-data.sh
