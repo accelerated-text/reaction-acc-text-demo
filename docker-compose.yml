@@ -36,11 +36,45 @@ services:
     volumes:
       - ./accelerated-text/api/resources/schema.graphql:/usr/src/app/packages/graphql/schema.graphql
 
-  document-plans-setup:
+  reaction-api:
+    image: reactioncommerce/reaction:3.3.0
+    depends_on:
+      - reaction-mongo
+    env_file:
+      - ./.env
+    ports:
+      - "3000:3000"
+
+  reaction-mongo:
+    image: mongo:4.2.0
+    command: mongod --oplogSize 128 --replSet rs0 --storageEngine=wiredTiger
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-db4:/data/db
+
+
+  reaction-admin:
+    # The main `docker-compose.yml` has an `image` prop. Unfortunately, when we
+    # add `build` prop here, it changes the meaning of that `image` prop to
+    # "tag the built image with this image name". This has the effect of breaking
+    # the app after you've run with the override and then go back to running without
+    # it, because now `reactioncommerce/admin:trunk` would actually be your dev image.
+    # To work around this issue, we specify a different tag name here, which does not
+    # match any of our published tags.
+    image: reactioncommerce/admin:local-dev
     build:
-      context: .
-      dockerfile: Dockerfile
-    command: 'sh prepare-data.sh'
-    environment:
-      ACC_TEXT_URL: http://acc-text-api:3001
-    restart: on-failure
+      context: ./reaction-admin/
+      dockerfile: Dockerfile-dev
+    command: bash -c "export PATH=$PATH:/home/node/.meteor && npm install --no-audit && node ./.reaction/waitForMongo.js && node --experimental-modules ./.reaction/scripts/run.mjs"
+    env_file:
+      - ./.env
+    volumes:
+      - ./reaction-admin/:/usr/local/src/app:cached
+      - reaction_meteor_local:/usr/local/src/app/.meteor/local
+      - reaction_node_modules:/usr/local/src/app/node_modules # do not link node_modules in, and persist it between dc up runs
+
+volumes:
+  mongo-db4:
+  reaction_meteor_local:
+  reaction_node_modules:

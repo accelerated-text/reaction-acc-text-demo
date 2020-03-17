@@ -1,16 +1,3 @@
-[submodule "reaction"]
-	path = reaction
-    url = git@github.com:/reactioncommerce/reaction.git
-    branch = trunk
-[submodule "reaction-hydra"]
-	path = reaction-hydra
-    url = git@github.com:/reactioncommerce/reaction-hydra.git
-    branch = trunk
-[submodule "example-storefront"]
-	path = example-storefront
-    url = git@github.com:/reactioncommerce/example-storefront.git
-	branch = trunk
-
 [submodule "reaction-admin"]
 	path = reaction-admin
 	url = git@github.com:reactioncommerce/reaction-admin.git
