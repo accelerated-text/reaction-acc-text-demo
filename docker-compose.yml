@@ -1,6 +1,41 @@
 version: '3.4'
 
 services:
+  acc-text-api:
+    build:
+      context: ./accelerated-text/
+      dockerfile: api/Dockerfile
+    ports: ["3001:3001"]
+    environment:
+      GF_ENDPOINT: http://gf:8000
+      ENRICH_ENDPOINT: http://enrich:8000
+      DB_IMPLEMENTATION: datomic
+      GRAMMAR_PACKAGE: "/opt/grammar/syntax"
+      GRAMMAR_PARADIGMS: "/opt/grammar/paradigms"
+      AMR_GRAMMAR: "/opt/grammar/concept-net.yaml"
+      DICT_PATH: "/opt/grammar/dictionary"
+      DOCUMENT_PLANS: "/opt/document-plans"
+    volumes:
+      - ./accelerated-text/api/grammar:/opt/grammar
+      - ./accelerated-text/api/grammar/document-plans:/opt/document-plans
+  gf:
+    build:
+      context: ./accelerated-text/
+      dockerfile: core/gf/Dockerfile
+    ports: ["8001:8000"]
+
+  acc-text-front-end:
+    build:
+      context: ./accelerated-text/front-end/
+      dockerfile: Dockerfile
+    ports: ["8080:8080"]
+    environment:
+      ACC_TEXT_API_URL: http://0.0.0.0:3001
+      ACC_TEXT_GRAPHQL_URL: http://0.0.0.0:3001/_graphql
+      MOCK_SHOP_API_URL: http://0:0:0:0:8090
+    volumes:
+      - ./accelerated-text/api/resources/schema.graphql:/usr/src/app/packages/graphql/schema.graphql
+
   document-plans-setup:
     build:
       context: .
