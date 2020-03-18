@@ -1,4 +1,6 @@
 DOCKER_COMPOSES=-f docker-compose.yml
+DEV_SERVICES=acc-text-api gf reaction-api reaction-mongo postgres hydra-migrate hydra identity
+
 
 
 
@@ -33,6 +35,9 @@ build:
 
 run: init build
 	docker-compose $(DOCKER_COMPOSES) up
+
+run-dev: init build
+	docker-compose $(DOCKER_COMPOSES) up $(DEV_SERVICES)
 
 stop:
 	docker-compose $(DOCKER_COMPOSES) down
