@@ -150,6 +150,55 @@ services:
       - URLS_SELF_ISSUER=http://localhost:4444
     restart: unless-stopped
 
+  web:
+    image: reactioncommerce/example-storefront:3.0.0
+    depends_on:
+      - hydra
+      - identity
+    environment:
+      - CANONICAL_URL=http://localhost:4000
+      - ENABLE_SPA_ROUTING=true
+      - EXTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
+      - INTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
+      - OAUTH2_ADMIN_PORT=4445
+      - OAUTH2_ADMIN_URL=http://hydra:4445
+      - OAUTH2_AUTH_URL=http://localhost:4444/oauth2/auth
+      - OAUTH2_CLIENT_ID=example-storefront
+      - OAUTH2_CLIENT_SECRET=CHANGEME
+      - OAUTH2_PUBLIC_LOGOUT_URL=http://localhost:4444/oauth2/sessions/logout
+      - OAUTH2_HOST=hydra.reaction.localhost
+      - OAUTH2_IDP_PUBLIC_CHANGE_PASSWORD_URL=http://localhost:4100/account/change-password?email=EMAIL&from=FROM
+      - OAUTH2_IDP_HOST_URL=http://localhost:4100
+      - OAUTH2_TOKEN_URL=http://localhost:4444/oauth2/token
+      - PORT=4000
+      - SEGMENT_ANALYTICS_SKIP_MINIMIZE=true
+      - SEGMENT_ANALYTICS_WRITE_KEY=ENTER_KEY_HERE
+      - SESSION_MAX_AGE_MS=2592000000
+      - SESSION_SECRET=CHANGEME
+      - STRIPE_PUBLIC_API_KEY=ENTER_STRIPE_PUBLIC_KEY_HERE
+    ports:
+      - 4000:4000
+
+  identity:
+    image: reactioncommerce/identity:3.0.0
+    depends_on:
+      - hydra
+      - reaction-mongo
+    environment:
+      - API_URL=http://localhost:3000/graphql
+      - HYDRA_ADMIN_URL=http://hydra:4445
+      - HYDRA_TOKEN_URL=http://hydra:4444/oauth2/token
+      - LOG_LEVEL=debug
+      - METEOR_DISABLE_OPTIMISTIC_CACHING=1
+      - METEOR_WATCH_POLLING_INTERVAL_MS=10000
+      - MONGO_OPLOG_URL=mongodb://reaction-mongo:27017/local
+      - MONGO_URL=mongodb://reaction-mongo:27017/reaction
+      - OAUTH2_CLIENT_DOMAINS=http://localhost:4000
+      - PORT=4100
+      - ROOT_URL=http://localhost:4100
+    ports:
+      - "4100:4100"
+
 volumes:
   mongo-db:
   reaction_meteor_local:
