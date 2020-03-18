@@ -40,8 +40,10 @@ services:
     image: reactioncommerce/reaction:3.3.0
     depends_on:
       - reaction-mongo
-    env_file:
-      - ./.env
+    environment:
+      - MONGO_URL=mongodb://reaction-mongo:27017/reaction
+      - ROOT_URL=http://localhost:3000
+      - STRIPE_API_KEY=YOUR_PRIVATE_STRIPE_API_KEY
     ports:
       - "3000:3000"
 
@@ -51,7 +53,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - mongo-db4:/data/db
+      - mongo-db:/data/db
 
 
   reaction-admin:
@@ -67,14 +69,89 @@ services:
       context: ./reaction-admin/
       dockerfile: Dockerfile-dev
     command: bash -c "export PATH=$PATH:/home/node/.meteor && npm install --no-audit && node ./.reaction/waitForMongo.js && node --experimental-modules ./.reaction/scripts/run.mjs"
-    env_file:
-      - ./.env
+    environment:
+      - MONGO_URL=mongodb://reaction-mongo:27017/reaction
+      - PORT=4080
+      - METEOR_DISABLE_OPTIMISTIC_CACHING=1
+      - METEOR_WATCH_POLLING_INTERVAL_MS=10000
+      - MONGO_OPLOG_URL=mongodb://reaction-mongo:27017/local
+      - OAUTH2_ADMIN_URL=http://hydra:4445
+      - OAUTH2_IDP_PUBLIC_CHANGE_PASSWORD_URL=http://localhost:4100/account/change-password?email=EMAIL&from=FROM
+      - OAUTH2_PUBLIC_URL=http://localhost:4444
+      - PUBLIC_GRAPHQL_API_URL_HTTP=http://localhost:3000/graphql
+      - PUBLIC_GRAPHQL_API_URL_WS=ws://localhost:3000/graphql
+      - PUBLIC_FILES_BASE_URL=http://localhost:3000
+      - PUBLIC_I18N_BASE_URL=http://localhost:3000
+      - PUBLIC_STOREFRONT_HOME_URL=http://localhost:4000
+      - ROOT_URL=http://localhost:4080
+    ports:
+      - "4080:4080"
     volumes:
       - ./reaction-admin/:/usr/local/src/app:cached
       - reaction_meteor_local:/usr/local/src/app/.meteor/local
       - reaction_node_modules:/usr/local/src/app/node_modules # do not link node_modules in, and persist it between dc up runs
 
+  postgres:
+    image: postgres:10.3
+    environment:
+      - POSTGRES_USER=hydra
+      - POSTGRES_PASSWORD=changeme
+      - POSTGRES_DB=hydra
+    ports:
+      - 5432
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  hydra-migrate:
+    image: oryd/hydra:v1.0.8
+    command: migrate sql -e -y
+    depends_on:
+      - postgres
+    environment:
+      - DSN=postgres://hydra:changeme@postgres:5432/hydra?sslmode=disable
+      - OAUTH2_EXPOSE_INTERNAL_ERRORS=true
+      - OIDC_SUBJECT_IDENTIFIERS_ENABLED=true
+      - OIDC_SUBJECT_IDENTIFIERS_PAIRWISE_SALT=youReallyNeedToChangeThis
+      - SECRETS_SYSTEM=youReallyNeedToChangeThis
+      - SERVE_PUBLIC_CORS_ALLOWED_ORIGINS=http://localhost:4080
+      - SERVE_PUBLIC_CORS_ENABLED=true
+      - URLS_CONSENT=http://localhost:4100/consent
+      - URLS_ERROR=http://localhost:4100/account/oauth-error
+      - URLS_LOGIN=http://localhost:4100/login
+      - URLS_LOGOUT=http://localhost:4100/logout
+      - URLS_SELF_ISSUER=http://localhost:4444
+    restart: on-failure
+
+  hydra:
+    image: oryd/hydra:v1.0.8
+    command: serve all --dangerous-force-http
+    depends_on:
+      - hydra-migrate
+      - postgres
+    ports:
+      # Public port
+      - "4444:4444"
+      # Admin port
+      - "4445:4445"
+      # Port for hydra token user
+      - "5555:5555"
+    environment:
+      - DSN=postgres://hydra:changeme@postgres:5432/hydra?sslmode=disable
+      - OAUTH2_EXPOSE_INTERNAL_ERRORS=true
+      - OIDC_SUBJECT_IDENTIFIERS_ENABLED=true
+      - OIDC_SUBJECT_IDENTIFIERS_PAIRWISE_SALT=youReallyNeedToChangeThis
+      - SECRETS_SYSTEM=youReallyNeedToChangeThis
+      - SERVE_PUBLIC_CORS_ALLOWED_ORIGINS=http://localhost:4080
+      - SERVE_PUBLIC_CORS_ENABLED=true
+      - URLS_CONSENT=http://localhost:4100/consent
+      - URLS_ERROR=http://localhost:4100/account/oauth-error
+      - URLS_LOGIN=http://localhost:4100/login
+      - URLS_LOGOUT=http://localhost:4100/logout
+      - URLS_SELF_ISSUER=http://localhost:4444
+    restart: unless-stopped
+
 volumes:
-  mongo-db4:
+  mongo-db:
   reaction_meteor_local:
   reaction_node_modules:
+  postgres-data:

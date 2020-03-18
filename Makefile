@@ -28,7 +28,7 @@ pull-submodules:
 pull-latest: pull-submodules
 	(cd accelerated-text && git reset --hard &&  git pull origin)
 
-build: prepare-plugin
+build:
 	docker-compose $(DOCKER_COMPOSES) build
 
 run: init build
