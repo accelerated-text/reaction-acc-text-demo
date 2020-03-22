@@ -16,8 +16,8 @@ services:
       DICT_PATH: "/opt/grammar/dictionary"
       DOCUMENT_PLANS: "/opt/document-plans"
     volumes:
-      - ./accelerated-text/api/grammar:/opt/grammar
-      - ./accelerated-text/api/grammar/document-plans:/opt/document-plans
+      - ./accelerated-text/api/resources/:/opt
+      - ./data/document-plans:/opt/document-plans
   gf:
     build:
       context: ./accelerated-text/

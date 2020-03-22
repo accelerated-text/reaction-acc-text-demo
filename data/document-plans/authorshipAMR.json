@@ -1,0 +1,61 @@
+{
+  "id": "yajmmFpVcElHZSzK",
+  "uid": "0353fea4-7d1a-4039-af5b-fa8e07d56f40",
+  "name": "AuthorshipAMR",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"p[vf~3_xQ9wk3)Hf,cTp\">Author</variable><variable type=\"\" id=\"RdA@Agd0Xuzq{{**zyih\">Title</variable></variables><block type=\"Document-plan\" id=\"EPbB^g3q:@IYY+u$33$L\" deletable=\"false\" x=\"10\" y=\"10\"><statement name=\"segments\"><block type=\"Segment\" id=\"%.9q~;WS=kxizz[t[c2|\"><mutation value_count=\"1\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"JAn+[EvU:/o`i;mlnv.I\"><mutation concept_id=\"RveNViaHehKTUunY\" concept_label=\"OwnershipRGL\" roles=\"[{&quot;id&quot;:&quot;NctHhoStdgfmqxpb&quot;,&quot;fieldLabel&quot;:&quot;Subject&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;WFxjQfIKfkpEdkst&quot;,&quot;fieldLabel&quot;:&quot;Action&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;V2&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;xdVlToGSAqGArkAH&quot;,&quot;fieldLabel&quot;:&quot;Object&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"NctHhoStdgfmqxpb\"><block type=\"Get-var\" id=\"RaPqCY%_NuC-@7yu15^8\"><field name=\"name\" id=\"p[vf~3_xQ9wk3)Hf,cTp\" variabletype=\"\">Author</field></block></value><value name=\"WFxjQfIKfkpEdkst\"><block type=\"Dictionary-item\" id=\"6qPv)tEwL7P^wj2^uMon\"><mutation id=\"c6098d2d-900b-4ba6-b515-cd6d68d5ffb2\" name=\"author_1_V\"></mutation></block></value><value name=\"xdVlToGSAqGArkAH\"><block type=\"Get-var\" id=\"[-=u(_YI2$qC3`BaUiI;\"><field name=\"name\" id=\"RdA@Agd0Xuzq{{**zyih\" variabletype=\"\">Title</field></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "name": "p[vf~3_xQ9wk3)Hf,cTp",
+                    "type": "Get-var",
+                    "srcId": "RaPqCY%_NuC-@7yu15^8"
+                  }
+                ],
+                "name": "NP",
+                "label": "Subject"
+              },
+              {
+                "children": [
+                  {
+                    "name": "author_1_V",
+                    "type": "Dictionary-item",
+                    "srcId": "6qPv)tEwL7P^wj2^uMon",
+                    "itemId": "c6098d2d-900b-4ba6-b515-cd6d68d5ffb2"
+                  }
+                ],
+                "name": "V2",
+                "label": "Action"
+              },
+              {
+                "children": [
+                  {
+                    "name": "RdA@Agd0Xuzq{{**zyih",
+                    "type": "Get-var",
+                    "srcId": "[-=u(_YI2$qC3`BaUiI;"
+                  }
+                ],
+                "name": "NP",
+                "label": "Object"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "JAn+[EvU:/o`i;mlnv.I",
+            "conceptId": "RveNViaHehKTUunY",
+            "kind": "Str"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "%.9q~;WS=kxizz[t[c2|"
+      }
+    ],
+    "srcId": "EPbB^g3q:@IYY+u$33$L"
+  }
+}

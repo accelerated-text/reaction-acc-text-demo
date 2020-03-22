@@ -1,0 +1,49 @@
+{
+  "id": "MyHbOfQQsSHPGLKB",
+  "uid": "5b088704-a6df-422b-9294-dc3cfea79b33",
+  "name": "Books",
+  "kind": "Document",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"Document-plan\" id=\"hN-oyJetYvfta.BC`fkl\" deletable=\"false\" x=\"10\" y=\"10\"><statement name=\"segments\"><block type=\"Segment\" id=\"oDjS$O.xCpyv0blp7-e:\"><mutation value_count=\"2\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\";}vClC5@|zP%5}8P?A)_\"><mutation concept_id=\"yajmmFpVcElHZSzK\" concept_label=\"AuthorshipAMR\" roles=\"[{&quot;id&quot;:&quot;UbwveJqcJPOkjExh&quot;,&quot;fieldLabel&quot;:&quot;Author&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;yGjcHblUUUVHfETE&quot;,&quot;fieldLabel&quot;:&quot;Title&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"UbwveJqcJPOkjExh\"><block type=\"Cell\" id=\"?Fe[N:9@FUrIVhh%7t=u\"><field name=\"name\">maker</field></block></value><value name=\"yGjcHblUUUVHfETE\"><block type=\"Cell\" id=\"|ZH=dZ3$^hK4xxl?n_Y5\"><field name=\"name\">product</field></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "name": "maker",
+                    "type": "Cell",
+                    "srcId": "?Fe[N:9@FUrIVhh%7t=u"
+                  }
+                ],
+                "name": "NP",
+                "label": "Author"
+              },
+              {
+                "children": [
+                  {
+                    "name": "product",
+                    "type": "Cell",
+                    "srcId": "|ZH=dZ3$^hK4xxl?n_Y5"
+                  }
+                ],
+                "name": "NP",
+                "label": "Title"
+              }
+            ],
+            "type": "AMR",
+            "srcId": ";}vClC5@|zP%5}8P?A)_",
+            "conceptId": "yajmmFpVcElHZSzK",
+            "kind": "Str"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "oDjS$O.xCpyv0blp7-e:"
+      }
+    ],
+    "srcId": "hN-oyJetYvfta.BC`fkl"
+  }
+}
