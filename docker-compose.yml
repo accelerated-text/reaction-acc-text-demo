@@ -46,6 +46,9 @@ services:
       - STRIPE_API_KEY=YOUR_PRIVATE_STRIPE_API_KEY
     ports:
       - "3000:3000"
+    volumes:
+      - ./reaction-admin/imports/plugins/custom/reaction-acc-text-import/translations:/usr/local/src/app/src/plugins/custom/acc-text-import
+      - ./registerPlugins.override.js:/usr/local/src/app/src/registerPlugins.js
 
   reaction-mongo:
     image: mongo:4.2.0
@@ -185,6 +188,7 @@ services:
     depends_on:
       - hydra
       - reaction-mongo
+      - reaction-api
     environment:
       - API_URL=http://localhost:3000/graphql
       - HYDRA_ADMIN_URL=http://hydra:4445
