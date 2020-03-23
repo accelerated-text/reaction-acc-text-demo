@@ -12,7 +12,7 @@ privide the product descriptions.
 
 - `make run` should start up everything.
 
-- Wait till Reaction Commerce is ready by checking [localhost:3000](http://localhost:3000)
+- Wait till Reaction Commerce is ready by checking [localhost:4080](http://localhost:4080)
 
 - Login with admin credentials (they are printed out in the console)
 
@@ -33,7 +33,3 @@ privide the product descriptions.
 - Make changes
 
 - Now next upload should use new descriptions for products
-
-# Caveats
-
-Currently each import creates new products, old ones need to be deleted manually. 
