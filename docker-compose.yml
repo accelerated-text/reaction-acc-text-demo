@@ -162,8 +162,8 @@ services:
     environment:
       - CANONICAL_URL=http://localhost:4000
       - ENABLE_SPA_ROUTING=true
-      - EXTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
-      - INTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
+      - EXTERNAL_GRAPHQL_URL=http://reaction-api:3000/graphql
+      - INTERNAL_GRAPHQL_URL=http://reaction-api:3000/graphql
       - OAUTH2_ADMIN_PORT=4445
       - OAUTH2_ADMIN_URL=http://hydra:4445
       - OAUTH2_AUTH_URL=http://localhost:4444/oauth2/auth
