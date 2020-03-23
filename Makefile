@@ -22,15 +22,13 @@ prepare-data:
 
 init: .init
 
-
-
 pull-submodules:
 	(git submodule update --remote && git pull --recurse-submodules)
 
 pull-latest: pull-submodules
 	(cd accelerated-text && git reset --hard &&  git pull origin master)
 
-build:
+build: prepare-plugin
 	docker-compose $(DOCKER_COMPOSES) build
 
 run: init pull-submodules pull-latest build
