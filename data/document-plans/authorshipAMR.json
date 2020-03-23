@@ -3,7 +3,7 @@
   "uid": "0353fea4-7d1a-4039-af5b-fa8e07d56f40",
   "name": "AuthorshipAMR",
   "kind": "AMR",
-  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"p[vf~3_xQ9wk3)Hf,cTp\">Author</variable><variable type=\"\" id=\"RdA@Agd0Xuzq{{**zyih\">Title</variable></variables><block type=\"Document-plan\" id=\"EPbB^g3q:@IYY+u$33$L\" deletable=\"false\" x=\"10\" y=\"10\"><statement name=\"segments\"><block type=\"Segment\" id=\"%.9q~;WS=kxizz[t[c2|\"><mutation value_count=\"1\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"JAn+[EvU:/o`i;mlnv.I\"><mutation concept_id=\"RveNViaHehKTUunY\" concept_label=\"OwnershipRGL\" roles=\"[{&quot;id&quot;:&quot;NctHhoStdgfmqxpb&quot;,&quot;fieldLabel&quot;:&quot;Subject&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;WFxjQfIKfkpEdkst&quot;,&quot;fieldLabel&quot;:&quot;Action&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;V2&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;xdVlToGSAqGArkAH&quot;,&quot;fieldLabel&quot;:&quot;Object&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"NctHhoStdgfmqxpb\"><block type=\"Get-var\" id=\"RaPqCY%_NuC-@7yu15^8\"><field name=\"name\" id=\"p[vf~3_xQ9wk3)Hf,cTp\" variabletype=\"\">Author</field></block></value><value name=\"WFxjQfIKfkpEdkst\"><block type=\"Dictionary-item\" id=\"6qPv)tEwL7P^wj2^uMon\"><mutation id=\"c6098d2d-900b-4ba6-b515-cd6d68d5ffb2\" name=\"author_1_V\"></mutation></block></value><value name=\"xdVlToGSAqGArkAH\"><block type=\"Get-var\" id=\"[-=u(_YI2$qC3`BaUiI;\"><field name=\"name\" id=\"RdA@Agd0Xuzq{{**zyih\" variabletype=\"\">Title</field></block></value></block></value></block></statement></block></xml>",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"p[vf~3_xQ9wk3)Hf,cTp\">Author</variable><variable type=\"\" id=\"RdA@Agd0Xuzq{{**zyih\">Title</variable></variables><block type=\"Document-plan\" id=\"EPbB^g3q:@IYY+u$33$L\" deletable=\"false\" x=\"10\" y=\"10\"><statement name=\"segments\"><block type=\"Segment\" id=\"%.9q~;WS=kxizz[t[c2|\"><mutation value_count=\"1\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"G0kVb2gO$:2)8~2n.@g.\"><mutation concept_id=\"RveNViaHehKTUunY\" concept_label=\"OwnershipRGL\" roles=\"[{&quot;id&quot;:&quot;asULNstFIvBSKRrp&quot;,&quot;fieldLabel&quot;:&quot;Subject&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;kZJwnabZVclWYHUl&quot;,&quot;fieldLabel&quot;:&quot;Action&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;V2&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;UFlTtJYigjEmTlQB&quot;,&quot;fieldLabel&quot;:&quot;Object&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"asULNstFIvBSKRrp\"><block type=\"AMR\" id=\"2xS8|:,WN685GFYQXQkB\"><mutation concept_id=\"ParadigmsEng.mkN/Str-&gt;N\" concept_label=\"mkN\" roles=\"[{&quot;id&quot;:&quot;BscMiqOGvwAZSJcw&quot;,&quot;fieldLabel&quot;:&quot;Str&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"BscMiqOGvwAZSJcw\"><block type=\"Get-var\" id=\"RaPqCY%_NuC-@7yu15^8\"><field name=\"name\" id=\"p[vf~3_xQ9wk3)Hf,cTp\" variabletype=\"\">Author</field></block></value></block></value><value name=\"kZJwnabZVclWYHUl\"><block type=\"AMR\" id=\"*[I):{uWKm)}JiS@l@0=\"><mutation concept_id=\"ParadigmsEng.mkV2/V-&gt;V2\" concept_label=\"mkV2\" roles=\"[{&quot;id&quot;:&quot;ElBVYMdpoMcnvzYD&quot;,&quot;fieldLabel&quot;:&quot;V&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;V&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"ElBVYMdpoMcnvzYD\"><block type=\"Dictionary-item\" id=\"6qPv)tEwL7P^wj2^uMon\"><mutation id=\"c6098d2d-900b-4ba6-b515-cd6d68d5ffb2\" name=\"author_1_V\"></mutation></block></value></block></value><value name=\"UFlTtJYigjEmTlQB\"><block type=\"AMR\" id=\"I|au;u8df_Z0L=ZC}Ya#\"><mutation concept_id=\"ParadigmsEng.mkN/Str-&gt;N\" concept_label=\"mkN\" roles=\"[{&quot;id&quot;:&quot;BscMiqOGvwAZSJcw&quot;,&quot;fieldLabel&quot;:&quot;Str&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"BscMiqOGvwAZSJcw\"><block type=\"Get-var\" id=\"[-=u(_YI2$qC3`BaUiI;\"><field name=\"name\" id=\"RdA@Agd0Xuzq{{**zyih\" variabletype=\"\">Title</field></block></value></block></value></block></value></block></statement></block></xml>",
   "documentPlan": {
     "type": "Document-plan",
     "segments": [
@@ -14,21 +14,47 @@
               {
                 "children": [
                   {
-                    "name": "p[vf~3_xQ9wk3)Hf,cTp",
-                    "type": "Get-var",
-                    "srcId": "RaPqCY%_NuC-@7yu15^8"
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "p[vf~3_xQ9wk3)Hf,cTp",
+                            "type": "Get-var",
+                            "srcId": "RaPqCY%_NuC-@7yu15^8"
+                          }
+                        ],
+                        "name": "Str",
+                        "label": "Str"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "2xS8|:,WN685GFYQXQkB",
+                    "conceptId": "ParadigmsEng.mkN/Str->N"
                   }
                 ],
-                "name": "NP",
+                "name": "N",
                 "label": "Subject"
               },
               {
                 "children": [
                   {
-                    "name": "author_1_V",
-                    "type": "Dictionary-item",
-                    "srcId": "6qPv)tEwL7P^wj2^uMon",
-                    "itemId": "c6098d2d-900b-4ba6-b515-cd6d68d5ffb2"
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "author_1_V",
+                            "type": "Dictionary-item",
+                            "srcId": "6qPv)tEwL7P^wj2^uMon",
+                            "itemId": "c6098d2d-900b-4ba6-b515-cd6d68d5ffb2"
+                          }
+                        ],
+                        "name": "V",
+                        "label": "V"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "*[I):{uWKm)}JiS@l@0=",
+                    "conceptId": "ParadigmsEng.mkV2/V->V2"
                   }
                 ],
                 "name": "V2",
@@ -37,17 +63,30 @@
               {
                 "children": [
                   {
-                    "name": "RdA@Agd0Xuzq{{**zyih",
-                    "type": "Get-var",
-                    "srcId": "[-=u(_YI2$qC3`BaUiI;"
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "RdA@Agd0Xuzq{{**zyih",
+                            "type": "Get-var",
+                            "srcId": "[-=u(_YI2$qC3`BaUiI;"
+                          }
+                        ],
+                        "name": "Str",
+                        "label": "Str"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "I|au;u8df_Z0L=ZC}Ya#",
+                    "conceptId": "ParadigmsEng.mkN/Str->N"
                   }
                 ],
-                "name": "NP",
+                "name": "N",
                 "label": "Object"
               }
             ],
             "type": "AMR",
-            "srcId": "JAn+[EvU:/o`i;mlnv.I",
+            "srcId": "G0kVb2gO$:2)8~2n.@g.",
             "conceptId": "RveNViaHehKTUunY",
             "kind": "Str"
           }
