@@ -2,40 +2,44 @@ version: '3.4'
 
 services:
   acc-text-api:
-    build:
-      context: ./accelerated-text/
-      dockerfile: api/Dockerfile
+    image: acctext/api:latest
+    networks:
+      - default
     ports: ["3001:3001"]
     environment:
-      GF_ENDPOINT: http://gf:8000
-      ENRICH_ENDPOINT: http://enrich:8000
-      DB_IMPLEMENTATION: datomic
-      GRAMMAR_PACKAGE: "/opt/syntax"
-      GRAMMAR_PARADIGMS: "/opt/paradigms"
-      AMR_GRAMMAR: "/opt/concept-net.yaml"
+      GF_ENDPOINT: "http://gf:8000"
+      DISPLAY_ERROR: "TRUE"
+      ENABLE_ENRICH: "FALSE"
+      ENABLE_REF_EXPR: "FALSE"
+      DB_IMPLEMENTATION: "datomic"
+      DB_URI: "datomic:free://datomic-transactor:4334/acc-text?password=datomic"
+      DATA_FILES: "/opt/data-files"
       DICT_PATH: "/opt/dictionary"
       DOCUMENT_PLANS: "/opt/document-plans"
+      ENABLED_LANGUAGES: "Eng"
     volumes:
-      - ./accelerated-text/api/resources/:/opt
-      - ./data/document-plans:/opt/document-plans
+      - ./api/resources:/opt
+    depends_on:
+      - datomic-transactor
+      - gf
+
+  datomic-transactor:
+    image: "gordonstratton/datomic-free-transactor:latest"
+    environment:
+      DATOMIC_HOST: "datomic-transactor"
+      DATOMIC_ALT_HOST: "acc-text-api"
+    volumes:
+      - datomic:/srv/datomic/data
+      - ./accelerated-text/transactor-logback.xml:/srv/datomic/bin/logback.xml
+
   gf:
-    build:
-      context: ./accelerated-text/
-      dockerfile: core/gf/Dockerfile
+    image: acctext/gf:latest
     ports: ["8001:8000"]
 
   acc-text-front-end:
-    build:
-      context: ./accelerated-text/front-end/
-      dockerfile: Dockerfile
-    ports: ["8080:8080"]
-    environment:
-      ACC_TEXT_API_URL: http://0.0.0.0:3001
-      ACC_TEXT_GRAPHQL_URL: http://0.0.0.0:3001/_graphql
-      MOCK_SHOP_API_URL: http://0:0:0:0:8090
-    volumes:
-      - ./accelerated-text/api/resources/schema.graphql:/usr/src/app/packages/graphql/schema.graphql
-
+    image: acctext/frontend:latest
+    ports: ["8080:80"]
+  
   reaction-api:
     image: reactioncommerce/reaction:3.3.0
     depends_on:
@@ -209,3 +213,5 @@ volumes:
   reaction_meteor_local:
   reaction_node_modules:
   postgres-data:
+  datomic:
+    name: acc-text_datomic
