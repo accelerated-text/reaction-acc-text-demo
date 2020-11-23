@@ -1,5 +1,5 @@
 DOCKER_COMPOSES=-f docker-compose.yml
-DEV_SERVICES=acc-text-api gf reaction-api reaction-mongo postgres hydra-migrate hydra identity acc-text-front-end
+DEV_SERVICES=acc-text-api gf reaction-api reaction-mongo postgres hydra-migrate hydra identity acc-text-front-end datomic-transactor
 
 
 
