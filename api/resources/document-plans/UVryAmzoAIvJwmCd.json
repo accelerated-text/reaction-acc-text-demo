@@ -1,0 +1,102 @@
+{
+  "id": "UVryAmzoAIvJwmCd",
+  "uid": "c1a758c7-502a-4b0e-b3b1-43af608ea771",
+  "name": "Product name",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"HAN[_jC,7mU65_ea$LU@\">name part 3</variable><variable type=\"\" id=\"`Hp67z`if)2Ev(RpWXWr\">name part 2</variable><variable type=\"\" id=\"6Id*WKd(;fyjq*lUL9RK\">name part 1</variable></variables><block type=\"Document-plan\" id=\"[~M@P{%B1P-(s2Q)[A.l\" deletable=\"false\" x=\"217\" y=\"114\"><statement name=\"segments\"><block type=\"Segment\" id=\"?i+N=(LJK|s2u}O32YK*\"><mutation value_count=\"2\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"`W*mw$RwFf`+3XcLu|%T\"><mutation concept_id=\"SPtZlrjdjjzqYnPz\" concept_kind=\"NP\" concept_label=\"NP: N -&gt; N -&gt; N\" roles=\"[{&quot;id&quot;:&quot;QNSmSKFlpNhYimgr&quot;,&quot;fieldLabel&quot;:&quot;n.2&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;ZsujAGZALtQLWIXi&quot;,&quot;fieldLabel&quot;:&quot;n.3&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;PgvRJozFjlxiCGvX&quot;,&quot;fieldLabel&quot;:&quot;n.1&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"QNSmSKFlpNhYimgr\"><block type=\"If-then-else\" id=\"r:$V[Wx@%4BLW?^~4:b*\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"1HOusoT~P;x,yQ11=,+M\"><field name=\"name\" id=\"HAN[_jC,7mU65_ea$LU@\" variabletype=\"\">name part 3</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"mzkYnCap(Uws}uM8m2p(\"><field name=\"name\" id=\"HAN[_jC,7mU65_ea$LU@\" variabletype=\"\">name part 3</field></block></value></block></value><value name=\"ZsujAGZALtQLWIXi\"><block type=\"If-then-else\" id=\"P89yH90W*66u:*4;1y!f\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"n^^E:e4L95.Y,mP!Ddk$\"><field name=\"name\" id=\"`Hp67z`if)2Ev(RpWXWr\" variabletype=\"\">name part 2</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"i$-p/GdXTb/H;o%K[*YM\"><field name=\"name\" id=\"`Hp67z`if)2Ev(RpWXWr\" variabletype=\"\">name part 2</field></block></value></block></value><value name=\"PgvRJozFjlxiCGvX\"><block type=\"If-then-else\" id=\"7@2@hSCA/eFo_A~MO}M=\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"m@{d0t(7w)X{FSHF3!1B\"><field name=\"name\" id=\"6Id*WKd(;fyjq*lUL9RK\" variabletype=\"\">name part 1</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"TbSz,gB-h.deb_uF6jLI\"><field name=\"name\" id=\"6Id*WKd(;fyjq*lUL9RK\" variabletype=\"\">name part 1</field></block></value></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "type": "If-then-else",
+                    "conditions": [
+                      {
+                        "type": "If-condition",
+                        "thenExpression": {
+                          "name": "HAN[_jC,7mU65_ea$LU@",
+                          "type": "Get-var",
+                          "srcId": "mzkYnCap(Uws}uM8m2p("
+                        },
+                        "condition": {
+                          "name": "HAN[_jC,7mU65_ea$LU@",
+                          "type": "Get-var",
+                          "srcId": "1HOusoT~P;x,yQ11=,+M"
+                        }
+                      }
+                    ],
+                    "srcId": "r:$V[Wx@%4BLW?^~4:b*"
+                  }
+                ],
+                "name": "NP",
+                "label": "n.2"
+              },
+              {
+                "children": [
+                  {
+                    "type": "If-then-else",
+                    "conditions": [
+                      {
+                        "type": "If-condition",
+                        "thenExpression": {
+                          "name": "`Hp67z`if)2Ev(RpWXWr",
+                          "type": "Get-var",
+                          "srcId": "i$-p/GdXTb/H;o%K[*YM"
+                        },
+                        "condition": {
+                          "name": "`Hp67z`if)2Ev(RpWXWr",
+                          "type": "Get-var",
+                          "srcId": "n^^E:e4L95.Y,mP!Ddk$"
+                        }
+                      }
+                    ],
+                    "srcId": "P89yH90W*66u:*4;1y!f"
+                  }
+                ],
+                "name": "NP",
+                "label": "n.3"
+              },
+              {
+                "children": [
+                  {
+                    "type": "If-then-else",
+                    "conditions": [
+                      {
+                        "type": "If-condition",
+                        "thenExpression": {
+                          "name": "6Id*WKd(;fyjq*lUL9RK",
+                          "type": "Get-var",
+                          "srcId": "TbSz,gB-h.deb_uF6jLI"
+                        },
+                        "condition": {
+                          "name": "6Id*WKd(;fyjq*lUL9RK",
+                          "type": "Get-var",
+                          "srcId": "m@{d0t(7w)X{FSHF3!1B"
+                        }
+                      }
+                    ],
+                    "srcId": "7@2@hSCA/eFo_A~MO}M="
+                  }
+                ],
+                "name": "N",
+                "label": "n.1"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "`W*mw$RwFf`+3XcLu|%T",
+            "conceptId": "SPtZlrjdjjzqYnPz",
+            "kind": "NP"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "?i+N=(LJK|s2u}O32YK*"
+      }
+    ],
+    "srcId": "[~M@P{%B1P-(s2Q)[A.l"
+  }
+}

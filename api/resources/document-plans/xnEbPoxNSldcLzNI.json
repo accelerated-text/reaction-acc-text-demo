@@ -1,0 +1,65 @@
+{
+  "id": "xnEbPoxNSldcLzNI",
+  "uid": "dd3a7f77-54e5-4ec8-8311-5b8fcb31ec6e",
+  "name": "Pair with",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"!uo+@O;cwpq!Cq$C;?)v\">products</variable></variables><block type=\"Document-plan\" id=\"Suh8e`:)X]3?*R3.?3yr\" deletable=\"false\" x=\"370\" y=\"226\"><statement name=\"segments\"><block type=\"Segment\" id=\"9bg4h4-=k~pLOY/J!oaj\"><mutation value_count=\"2\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"If-then-else\" id=\"KVDz$VgzkAFAKx_DL{@Y\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"#e2eFWW9yo:rt`qBud7l\"><field name=\"name\" id=\"!uo+@O;cwpq!Cq$C;?)v\" variabletype=\"\">products</field></block></value><value name=\"then\"><block type=\"Sequence\" id=\"3uVGdN|0leoY1b=#!RdI\"><mutation value_count=\"4\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"One-of-synonyms\" id=\"JuN_|S8b]N[uYWBcW75{\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"#LuL1BTpXsKuA`3P,K9@\"><field name=\"text\">Pair with</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"rrEIbwjv/IJ-D-)f0XCV\"><field name=\"text\">Goes well with</field></block></value></block></value><value name=\"value_1\"><block type=\"Get-var\" id=\"UM(n=viDuSEGMx$H_SM9\"><field name=\"name\" id=\"!uo+@O;cwpq!Cq$C;?)v\" variabletype=\"\">products</field></block></value><value name=\"value_2\"><block type=\"Quote\" id=\"9k(~CA(_9S[O_*sxXj%r\"><field name=\"text\">for a great look.</field></block></value></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "type": "Quote",
+                          "srcId": "#LuL1BTpXsKuA`3P,K9@",
+                          "text": "Pair with"
+                        },
+                        {
+                          "type": "Quote",
+                          "srcId": "rrEIbwjv/IJ-D-)f0XCV",
+                          "text": "Goes well with"
+                        }
+                      ],
+                      "type": "One-of-synonyms",
+                      "srcId": "JuN_|S8b]N[uYWBcW75{"
+                    },
+                    {
+                      "name": "!uo+@O;cwpq!Cq$C;?)v",
+                      "type": "Get-var",
+                      "srcId": "UM(n=viDuSEGMx$H_SM9"
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "9k(~CA(_9S[O_*sxXj%r",
+                      "text": "for a great look."
+                    }
+                  ],
+                  "type": "Sequence",
+                  "srcId": "3uVGdN|0leoY1b=#!RdI"
+                },
+                "condition": {
+                  "name": "!uo+@O;cwpq!Cq$C;?)v",
+                  "type": "Get-var",
+                  "srcId": "#e2eFWW9yo:rt`qBud7l"
+                }
+              }
+            ],
+            "srcId": "KVDz$VgzkAFAKx_DL{@Y"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "9bg4h4-=k~pLOY/J!oaj"
+      }
+    ],
+    "srcId": "Suh8e`:)X]3?*R3.?3yr"
+  }
+}

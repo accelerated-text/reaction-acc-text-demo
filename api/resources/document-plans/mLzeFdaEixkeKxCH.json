@@ -1,0 +1,88 @@
+{
+  "id": "mLzeFdaEixkeKxCH",
+  "uid": "476c2541-75d0-4a30-ab60-f38def23accc",
+  "name": "Ideal choice for",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\").wW0~`sY,,S|f,{1}VR\">*Description</variable><variable type=\"\" id=\"YIYTt`p|3K,oZJ6/D6MM\">Sub-category</variable></variables><block type=\"Document-plan\" id=\"w:uz[:mf6~-:TCQ!s1U*\" deletable=\"false\" x=\"300\" y=\"27\"><statement name=\"segments\"><block type=\"Define-var\" id=\"1%Glu8H/+=_]?xP-{Yks\"><field name=\"name\" id=\").wW0~`sY,,S|f,{1}VR\" variabletype=\"\">*Description</field><value name=\"value\"><block type=\"Quote\" id=\"DSdZn@~#1zqC5nzsSapv\"><field name=\"text\">An ideal choice for lounging or running</field></block></value><next><block type=\"Segment\" id=\"?{7KR_/pW}B.)ghxxT9M\"><mutation value_count=\"2\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"If-then-else\" id=\"z*b3R*~%.$;u^SGu_s@b\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Value-comparison\" id=\"2d+-ID0epKcrrfpX?.M6\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Quote\" id=\"^^q|JN%otw9Q.^[C5Nn#\"><field name=\"text\">sweatpants</field></block></value><value name=\"value2\"><block type=\"Get-var\" id=\"dfg[5XD#jf9rVUs8wNf2\"><field name=\"name\" id=\"YIYTt`p|3K,oZJ6/D6MM\" variabletype=\"\">Sub-category</field></block></value></block></value><value name=\"then\"><block type=\"One-of-synonyms\" id=\"ghTJ1[a=al3c##S!4=KZ\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"qRs5Kak(M+d(:1np]wO2\"><field name=\"text\">Ideal choice for kids and adults alike.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"**@tl;PhGWr[d(a6.mHq\"><field name=\"text\">An ideal choice for kids and adults.</field></block></value></block></value><value name=\"else\"><block type=\"One-of-synonyms\" id=\"%5F{0cJWWZw_azmS*u@o\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"`1ZGU{;tfhiVqEI6.GsP\"><field name=\"text\">For those who want to look good effortlessly, and bring timeless looks updated with contemporary styling.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"O^V1#(^D#drL=R:ON6`b\"><field name=\"text\">For those who want to look good effortlessly. Those pants bring timeless looks updated with contemporary styling.</field></block></value></block></value></block></value></block></next></block></statement></block><block type=\"If-then-else\" id=\"XyNCejI-i-)03rNPuxVt\" x=\"364\" y=\"459\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Value-comparison\" id=\"pSLSb8))wCrkI;uD{3a0\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Quote\" id=\"zPtuQ;E(f?.y.|5joz,g\"><field name=\"text\">sweatpants</field></block></value><value name=\"value2\"><block type=\"Get-var\" id=\"l7D]j}$Pxhd:.%BGO~aP\"><field name=\"name\" id=\"YIYTt`p|3K,oZJ6/D6MM\" variabletype=\"\">Sub-category</field></block></value></block></value><value name=\"then\"><block type=\"Quote\" id=\"ht6{lqX,sc#9(/Q/uxL%\"><field name=\"text\">Plus, it incorporates great performance features to keep you comfortable all day long.</field></block></value><value name=\"else\"><block type=\"One-of-synonyms\" id=\"YRA-2}7DXlFSDk(Co-Vs\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"Q`qF*g+XHOOQWV$GSO#z\"><field name=\"text\">Stay confident and knowing that you will feel comfortable and looking great all day.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"|1S1]IR(*p%sGN)k[TVV\"><field name=\"text\">Feel comfortable and looking great all day.</field></block></value></block></value></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "name": ").wW0~`sY,,S|f,{1}VR",
+        "value": {
+          "type": "Quote",
+          "srcId": "DSdZn@~#1zqC5nzsSapv",
+          "text": "An ideal choice for lounging or running"
+        },
+        "type": "Define-var",
+        "srcId": "1%Glu8H/+=_]?xP-{Yks"
+      },
+      {
+        "children": [
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "qRs5Kak(M+d(:1np]wO2",
+                      "text": "Ideal choice for kids and adults alike."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "**@tl;PhGWr[d(a6.mHq",
+                      "text": "An ideal choice for kids and adults."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "ghTJ1[a=al3c##S!4=KZ"
+                },
+                "condition": {
+                  "type": "Value-comparison",
+                  "srcId": "2d+-ID0epKcrrfpX?.M6",
+                  "operator": "=",
+                  "value2": {
+                    "name": "YIYTt`p|3K,oZJ6/D6MM",
+                    "type": "Get-var",
+                    "srcId": "dfg[5XD#jf9rVUs8wNf2"
+                  },
+                  "value1": {
+                    "type": "Quote",
+                    "srcId": "^^q|JN%otw9Q.^[C5Nn#",
+                    "text": "sweatpants"
+                  }
+                }
+              },
+              {
+                "type": "Default-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "`1ZGU{;tfhiVqEI6.GsP",
+                      "text": "For those who want to look good effortlessly, and bring timeless looks updated with contemporary styling."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "O^V1#(^D#drL=R:ON6`b",
+                      "text": "For those who want to look good effortlessly. Those pants bring timeless looks updated with contemporary styling."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "%5F{0cJWWZw_azmS*u@o"
+                }
+              }
+            ],
+            "srcId": "z*b3R*~%.$;u^SGu_s@b"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "?{7KR_/pW}B.)ghxxT9M"
+      }
+    ],
+    "srcId": "w:uz[:mf6~-:TCQ!s1U*"
+  }
+}

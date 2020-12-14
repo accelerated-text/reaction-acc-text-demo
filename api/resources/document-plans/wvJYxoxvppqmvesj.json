@@ -1,0 +1,190 @@
+{
+  "id": "wvJYxoxvppqmvesj",
+  "uid": "e364c941-80b6-4009-80eb-1d483b5bfe9b",
+  "name": "Availability",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"n.[+s;e^[XMsA9XR,O+C\">color</variable><variable type=\"\" id=\"+s:74o`HEl7Wyv1]v6#a\">size</variable></variables><block type=\"Document-plan\" id=\"Kc4J.y2eB})bTJ,%kQn_\" deletable=\"false\" x=\"219\" y=\"-96\"><statement name=\"segments\"><block type=\"Segment\" id=\"XX.i5}mXIwJa*Cz_v^4K\"><mutation value_count=\"4\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"If-then-else\" id=\"vTxey]*nsuN@x[{{802G\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"*$Y64F=SjNu=b$|n~Gv)\"><field name=\"name\" id=\"n.[+s;e^[XMsA9XR,O+C\" variabletype=\"\">color</field></block></value><value name=\"then\"><block type=\"If-then-else\" id=\"SooY;EN^e9D9Zc.M4nI/\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Value-comparison\" id=\"mfnvsc5m3)IU?B{5G|B#\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Get-var\" id=\"[~@2fpcCrxFoneQaq%a3\"><field name=\"name\" id=\"n.[+s;e^[XMsA9XR,O+C\" variabletype=\"\">color</field></block></value><value name=\"value2\"><block type=\"Quote\" id=\"[]Z|sn(JsBBboziF;.Sx\"><field name=\"text\">multiple</field></block></value></block></value><value name=\"then\"><block type=\"One-of-synonyms\" id=\"[X?[Wl7Moh*AQ~X?70/Y\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"4:v:.eV)[xHteS@|bCw1\"><field name=\"text\"> They're available in your choice of select colors so you can find one to match with your favorite tops.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"nw.DlEJ6yg(@8yZ75zKq\"><field name=\"text\">Available in multiple colors. You can find one to match with your favorite tops.</field></block></value></block></value><value name=\"else\"><block type=\"Sequence\" id=\"msao%(r;QoW_ER?{}R*/\"><mutation value_count=\"4\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"c/LS;b86:F@2l:h?]ns*\"><field name=\"text\">The pants are available in</field></block></value><value name=\"value_1\"><block type=\"Get-var\" id=\"oksrtoV36*St6VwA;rbG\"><field name=\"name\" id=\"n.[+s;e^[XMsA9XR,O+C\" variabletype=\"\">color</field></block></value><value name=\"value_2\"><block type=\"Quote\" id=\"$|^y7Tl`ky,tkae.[r}J\"><field name=\"text\">colors.</field></block></value></block></value></block></value></block></value><value name=\"value_1\"><block type=\"If-then-else\" id=\"f}r|;6K6qUh)VP$(.e-?\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"..JZD!|MgR%2C.hS8%W]\"><field name=\"name\" id=\"+s:74o`HEl7Wyv1]v6#a\" variabletype=\"\">size</field></block></value><value name=\"then\"><block type=\"One-of-synonyms\" id=\"AU*Wg0_fL_-!zvn~(;lU\"><mutation value_count=\"4\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"Yh8_3}@G7kG#*A!tdbP~\"><field name=\"text\">Available in</field></block></value><value name=\"value_1\"><block type=\"Get-var\" id=\"-m1Lc=+N9waQNryyDZ(.\"><field name=\"name\" id=\"+s:74o`HEl7Wyv1]v6#a\" variabletype=\"\">size</field></block></value><value name=\"value_2\"><block type=\"Quote\" id=\"nw^zIlljFYys_1bP#OsM\"><field name=\"text\">sizes.</field></block></value></block></value><value name=\"else\"><block type=\"One-of-synonyms\" id=\"X(HYD)Ick~$b^@Te.Br0\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"u7?c(dz!^ow|Mgg^B?Dr\"><field name=\"text\">Available in all sizes.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"DzVvt-P|f@I.k/9K_KU@\"><field name=\"text\">Item is available in all sizes from small to large.</field></block></value></block></value></block></value><value name=\"value_2\"><block type=\"If-then-else\" id=\"9MNc*$R$00u)ok[ajT%M\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"And-or\" id=\"-p8/GTm|X`(%l,n6Z2Hp\"><mutation value_count=\"3\" value_sequence=\"value_\"></mutation><field name=\"operator\">and</field><value name=\"value_0\"><block type=\"Not\" id=\"#CPLWOz0GNj?r-j{=}e|\"><value name=\"value\"><block type=\"Get-var\" id=\"z!)BiEz0Wcn=T|M0nN$.\"><field name=\"name\" id=\"+s:74o`HEl7Wyv1]v6#a\" variabletype=\"\">size</field></block></value></block></value><value name=\"value_1\"><block type=\"Not\" id=\"BjAPjngo:~,kW]Pz)ZIR\"><value name=\"value\"><block type=\"Get-var\" id=\"4i];d_5MV$b0T_ZycdGH\"><field name=\"name\" id=\"n.[+s;e^[XMsA9XR,O+C\" variabletype=\"\">color</field></block></value></block></value></block></value><value name=\"then\"><block type=\"Quote\" id=\"n(f)Gy@]nyy)yfVc8z%[\"><field name=\"text\">These are available in assorted colors and sizes. </field></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "type": "If-then-else",
+                  "conditions": [
+                    {
+                      "type": "If-condition",
+                      "thenExpression": {
+                        "children": [
+                          {
+                            "type": "Quote",
+                            "srcId": "4:v:.eV)[xHteS@|bCw1",
+                            "text": " They're available in your choice of select colors so you can find one to match with your favorite tops."
+                          },
+                          {
+                            "type": "Quote",
+                            "srcId": "nw.DlEJ6yg(@8yZ75zKq",
+                            "text": "Available in multiple colors. You can find one to match with your favorite tops."
+                          }
+                        ],
+                        "type": "One-of-synonyms",
+                        "srcId": "[X?[Wl7Moh*AQ~X?70/Y"
+                      },
+                      "condition": {
+                        "type": "Value-comparison",
+                        "srcId": "mfnvsc5m3)IU?B{5G|B#",
+                        "operator": "=",
+                        "value2": {
+                          "type": "Quote",
+                          "srcId": "[]Z|sn(JsBBboziF;.Sx",
+                          "text": "multiple"
+                        },
+                        "value1": {
+                          "name": "n.[+s;e^[XMsA9XR,O+C",
+                          "type": "Get-var",
+                          "srcId": "[~@2fpcCrxFoneQaq%a3"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Default-condition",
+                      "thenExpression": {
+                        "children": [
+                          {
+                            "type": "Quote",
+                            "srcId": "c/LS;b86:F@2l:h?]ns*",
+                            "text": "The pants are available in"
+                          },
+                          {
+                            "name": "n.[+s;e^[XMsA9XR,O+C",
+                            "type": "Get-var",
+                            "srcId": "oksrtoV36*St6VwA;rbG"
+                          },
+                          {
+                            "type": "Quote",
+                            "srcId": "$|^y7Tl`ky,tkae.[r}J",
+                            "text": "colors."
+                          }
+                        ],
+                        "type": "Sequence",
+                        "srcId": "msao%(r;QoW_ER?{}R*/"
+                      }
+                    }
+                  ],
+                  "srcId": "SooY;EN^e9D9Zc.M4nI/"
+                },
+                "condition": {
+                  "name": "n.[+s;e^[XMsA9XR,O+C",
+                  "type": "Get-var",
+                  "srcId": "*$Y64F=SjNu=b$|n~Gv)"
+                }
+              }
+            ],
+            "srcId": "vTxey]*nsuN@x[{{802G"
+          },
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "Yh8_3}@G7kG#*A!tdbP~",
+                      "text": "Available in"
+                    },
+                    {
+                      "name": "+s:74o`HEl7Wyv1]v6#a",
+                      "type": "Get-var",
+                      "srcId": "-m1Lc=+N9waQNryyDZ(."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "nw^zIlljFYys_1bP#OsM",
+                      "text": "sizes."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "AU*Wg0_fL_-!zvn~(;lU"
+                },
+                "condition": {
+                  "name": "+s:74o`HEl7Wyv1]v6#a",
+                  "type": "Get-var",
+                  "srcId": "..JZD!|MgR%2C.hS8%W]"
+                }
+              },
+              {
+                "type": "Default-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "u7?c(dz!^ow|Mgg^B?Dr",
+                      "text": "Available in all sizes."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "DzVvt-P|f@I.k/9K_KU@",
+                      "text": "Item is available in all sizes from small to large."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "X(HYD)Ick~$b^@Te.Br0"
+                }
+              }
+            ],
+            "srcId": "f}r|;6K6qUh)VP$(.e-?"
+          },
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "type": "Quote",
+                  "srcId": "n(f)Gy@]nyy)yfVc8z%[",
+                  "text": "These are available in assorted colors and sizes. "
+                },
+                "condition": {
+                  "children": [
+                    {
+                      "value": {
+                        "name": "+s:74o`HEl7Wyv1]v6#a",
+                        "type": "Get-var",
+                        "srcId": "z!)BiEz0Wcn=T|M0nN$."
+                      },
+                      "type": "Not",
+                      "srcId": "#CPLWOz0GNj?r-j{=}e|"
+                    },
+                    {
+                      "value": {
+                        "name": "n.[+s;e^[XMsA9XR,O+C",
+                        "type": "Get-var",
+                        "srcId": "4i];d_5MV$b0T_ZycdGH"
+                      },
+                      "type": "Not",
+                      "srcId": "BjAPjngo:~,kW]Pz)ZIR"
+                    }
+                  ],
+                  "type": "And-or",
+                  "srcId": "-p8/GTm|X`(%l,n6Z2Hp",
+                  "operator": "and"
+                }
+              }
+            ],
+            "srcId": "9MNc*$R$00u)ok[ajT%M"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "XX.i5}mXIwJa*Cz_v^4K"
+      }
+    ],
+    "srcId": "Kc4J.y2eB})bTJ,%kQn_"
+  }
+}

@@ -18,9 +18,9 @@ privide the product descriptions.
 
 - Go to Settings/Accelerated Text Import Tool
 
-- Select description type (eg. Dresses)
+- Select description type (eg. Pants)
 
-- Upload CSV. **Hint:** you can use csv provided in `data` folder of this project. For dresses use `flipcart-dresses.csv`
+- Upload CSV. **Hint:** you can use csv provided in `data` folder of this project. For `Pants` document plan use `pants.csv`
 
 - Press `Import CSV` and wait till all of the products are uploaded
 
@@ -28,7 +28,7 @@ privide the product descriptions.
 
 - Go to [localhost:8080](http://localhost:8080)
 
-- Select Document Plan you have been using, eg. `Dresses`
+- Select Document Plan you have been using, eg. `Pants`
 
 - Make changes
 

@@ -1,0 +1,77 @@
+{
+  "id": "NexuGhMENtBpsfaq",
+  "uid": "6c800f30-cee4-4e0c-93ca-56cef0a76bfd",
+  "name": "NP: N CN",
+  "kind": "RGL",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"dLv+kMj%NkT)B*JYik)@\">N</variable><variable type=\"\" id=\"S=y[:[`Z^wF122+gKp.y\">CN</variable></variables><block type=\"Document-plan\" id=\"ey2ej[+U6fJEP1l5cwud\" deletable=\"false\" x=\"548\" y=\"194\"><statement name=\"segments\"><block type=\"Segment\" id=\"6L|0E|4]7cev#7Mfx{oa\"><mutation value_count=\"1\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"/.RJJVqHb!B`15mT4[(j\"><mutation concept_id=\"Syntax.mkCN/CN-&gt;NP-&gt;CN\" concept_kind=\"CN\" concept_label=\"mkCN\" roles=\"[{&quot;id&quot;:&quot;pIypKYiNcSmiUMEl&quot;,&quot;fieldLabel&quot;:&quot;CN&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;yZSbvrxKPfkdjkcn&quot;,&quot;fieldLabel&quot;:&quot;NP&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"pIypKYiNcSmiUMEl\"><block type=\"AMR\" id=\"x{WzFk@a-ak@7/lv*u+y\"><mutation concept_id=\"Syntax.mkCN/N-&gt;CN\" concept_kind=\"CN\" concept_label=\"mkCN\" roles=\"[{&quot;id&quot;:&quot;JoSuHZRTsUHaLbGU&quot;,&quot;fieldLabel&quot;:&quot;N&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"JoSuHZRTsUHaLbGU\"><block type=\"Get-var\" id=\"Kx?]/}v/Z,?r,h7MR84M\"><field name=\"name\" id=\"dLv+kMj%NkT)B*JYik)@\" variabletype=\"\">N</field></block></value></block></value><value name=\"yZSbvrxKPfkdjkcn\"><block type=\"AMR\" id=\"Qp0BI!-QnT9f3!^LgSL%\"><mutation concept_id=\"Syntax.mkNP/CN-&gt;NP\" concept_kind=\"NP\" concept_label=\"mkNP\" roles=\"[{&quot;id&quot;:&quot;jgCsnmfclMrqDIvB&quot;,&quot;fieldLabel&quot;:&quot;CN&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"jgCsnmfclMrqDIvB\"><block type=\"Get-var\" id=\"=!Zb@ysns(@#vdKqXT;(\"><field name=\"name\" id=\"S=y[:[`Z^wF122+gKp.y\" variabletype=\"\">CN</field></block></value></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "dLv+kMj%NkT)B*JYik)@",
+                            "type": "Get-var",
+                            "srcId": "Kx?]/}v/Z,?r,h7MR84M"
+                          }
+                        ],
+                        "name": "N",
+                        "label": "N"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "x{WzFk@a-ak@7/lv*u+y",
+                    "conceptId": "Syntax.mkCN/N->CN",
+                    "kind": "CN"
+                  }
+                ],
+                "name": "CN",
+                "label": "CN"
+              },
+              {
+                "children": [
+                  {
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "S=y[:[`Z^wF122+gKp.y",
+                            "type": "Get-var",
+                            "srcId": "=!Zb@ysns(@#vdKqXT;("
+                          }
+                        ],
+                        "name": "CN",
+                        "label": "CN"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "Qp0BI!-QnT9f3!^LgSL%",
+                    "conceptId": "Syntax.mkNP/CN->NP",
+                    "kind": "NP"
+                  }
+                ],
+                "name": "NP",
+                "label": "NP"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "/.RJJVqHb!B`15mT4[(j",
+            "conceptId": "Syntax.mkCN/CN->NP->CN",
+            "kind": "CN"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "6L|0E|4]7cev#7Mfx{oa"
+      }
+    ],
+    "srcId": "ey2ej[+U6fJEP1l5cwud"
+  }
+}

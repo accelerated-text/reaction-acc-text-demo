@@ -1,0 +1,174 @@
+{
+  "id": "fVchtudGKckEdFud",
+  "uid": "96710e12-9d80-4250-8205-5d58501d93d9",
+  "name": "Pitch",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"5w=GPO{vqSp;8kf#?r[.\">type</variable></variables><block type=\"Document-plan\" id=\"wG8v~]RD#.3DcMCrlflA\" deletable=\"false\" x=\"255\" y=\"26\"><statement name=\"segments\"><block type=\"Segment\" id=\"1lJI~$3ecx[({dX@Xx+h\"><mutation value_count=\"2\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"If-then-else\" id=\"xI90]yitJ$I2?me1gW0K\"><mutation else_if_count=\"3\"></mutation><value name=\"if\"><block type=\"Value-comparison\" id=\"#H,zex3b`uF__NG7GyZL\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Get-var\" id=\"Em6GT./BcEgE|1ptpJ!4\"><field name=\"name\" id=\"5w=GPO{vqSp;8kf#?r[.\" variabletype=\"\">type</field></block></value><value name=\"value2\"><block type=\"Quote\" id=\"._6]#?DTwRUTd7aIMZYi\"><field name=\"text\">acrtive comfort</field></block></value></block></value><value name=\"then\"><block type=\"One-of-synonyms\" id=\"F^#BU;T4?z:19/mpWA*=\"><mutation value_count=\"2\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\",eR]MOv:pUar:0=WDqP6\"><field name=\"text\">Stay confident knowing that it is working to keep you feeling comfortable and looking great all day.</field></block></value></block></value><value name=\"else_if_0\"><block type=\"Value-comparison\" id=\"C{zOcmFdn{FO8?{OJpF?\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Get-var\" id=\"GUTN0t^X[hWISG{9{{MB\"><field name=\"name\" id=\"5w=GPO{vqSp;8kf#?r[.\" variabletype=\"\">type</field></block></value><value name=\"value2\"><block type=\"Quote\" id=\"k@d?z?G#Q(vHbAgQ:hp8\"><field name=\"text\">george</field></block></value></block></value><value name=\"then_0\"><block type=\"One-of-synonyms\" id=\"^B8$QT!]d}bn,);z4}tl\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"@X!!N,qm@`zl]9x}N`+K\"><field name=\"text\">George is a one-stop range for men who want to look good effortlessly, and brings timeless, masculine looks updated with contemporary styling.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"=9`%uxq0,+Yr$hrmMY{s\"><field name=\"text\">For men who want to look good effortlessly George is a one-stop range. It brings timeless, virile looks updated with contemporary styling.</field></block></value></block></value><value name=\"else_if_1\"><block type=\"Value-comparison\" id=\"X4]n;]?9xmg!1:d8#Sg!\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Get-var\" id=\"Mn(|Y?6Q(4o}M=;)-|If\"><field name=\"name\" id=\"5w=GPO{vqSp;8kf#?r[.\" variabletype=\"\">type</field></block></value><value name=\"value2\"><block type=\"Quote\" id=\"CWj*-npjwyfA,dQEt}A?\"><field name=\"text\">athletic</field></block></value></block></value><value name=\"then_1\"><block type=\"One-of-synonyms\" id=\"E-XFuz+G2z|Ev/_ucEq,\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"AGo_^K^,EkBk/@po=7_/\"><field name=\"text\">An ideal choice for lounging or when you're on the go.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"U2hbfy)8euM$emI#Wn?^\"><field name=\"text\">It will suit you ideally when you're on the go or lounging.</field></block></value></block></value><value name=\"else_if_2\"><block type=\"Value-comparison\" id=\"Kb9|i@g)T$:ADnx^e}_#\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Get-var\" id=\"G^hv/Q%r,o.(H?,hQv4G\"><field name=\"name\" id=\"5w=GPO{vqSp;8kf#?r[.\" variabletype=\"\">type</field></block></value><value name=\"value2\"><block type=\"Quote\" id=\"ot@}6OC=~Uw$b=5h|=!*\"><field name=\"text\">dress</field></block></value></block></value><value name=\"then_2\"><block type=\"One-of-synonyms\" id=\"P?o=|yo5J:19XBhJmNU8\"><mutation value_count=\"5\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"%}rnY1y;U:Jt[Kq3zTs!\"><field name=\"text\">Here it is the dress that fits in everywhere.</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"YdJ7[0qf;2.)v_(,%9*t\"><field name=\"text\">Stay cool and comfortable in this dress.</field></block></value><value name=\"value_2\"><block type=\"Quote\" id=\"]^O_LXT3H^QLed^)~3.6\"><field name=\"text\">Step into this gorgeous dress which will be sure to turn heads.</field></block></value><value name=\"value_3\"><block type=\"Quote\" id=\"S+6NY4tt$PODp$*.-MY4\"><field name=\"text\">It’s a cinch to update your style with this  dress—one that moves through your day effortlessly.</field></block></value></block></value><value name=\"else\"><block type=\"Quote\" id=\"d!Q4yW*ihQP*G[N4TyvA\"><field name=\"text\">It is suitable to wear for a wide range of casual events.</field></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "type": "If-then-else",
+            "conditions": [
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": ",eR]MOv:pUar:0=WDqP6",
+                      "text": "Stay confident knowing that it is working to keep you feeling comfortable and looking great all day."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "F^#BU;T4?z:19/mpWA*="
+                },
+                "condition": {
+                  "type": "Value-comparison",
+                  "srcId": "#H,zex3b`uF__NG7GyZL",
+                  "operator": "=",
+                  "value2": {
+                    "type": "Quote",
+                    "srcId": "._6]#?DTwRUTd7aIMZYi",
+                    "text": "acrtive comfort"
+                  },
+                  "value1": {
+                    "name": "5w=GPO{vqSp;8kf#?r[.",
+                    "type": "Get-var",
+                    "srcId": "Em6GT./BcEgE|1ptpJ!4"
+                  }
+                }
+              },
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "@X!!N,qm@`zl]9x}N`+K",
+                      "text": "George is a one-stop range for men who want to look good effortlessly, and brings timeless, masculine looks updated with contemporary styling."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "=9`%uxq0,+Yr$hrmMY{s",
+                      "text": "For men who want to look good effortlessly George is a one-stop range. It brings timeless, virile looks updated with contemporary styling."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "^B8$QT!]d}bn,);z4}tl"
+                },
+                "condition": {
+                  "type": "Value-comparison",
+                  "srcId": "C{zOcmFdn{FO8?{OJpF?",
+                  "operator": "=",
+                  "value2": {
+                    "type": "Quote",
+                    "srcId": "k@d?z?G#Q(vHbAgQ:hp8",
+                    "text": "george"
+                  },
+                  "value1": {
+                    "name": "5w=GPO{vqSp;8kf#?r[.",
+                    "type": "Get-var",
+                    "srcId": "GUTN0t^X[hWISG{9{{MB"
+                  }
+                }
+              },
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "AGo_^K^,EkBk/@po=7_/",
+                      "text": "An ideal choice for lounging or when you're on the go."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "U2hbfy)8euM$emI#Wn?^",
+                      "text": "It will suit you ideally when you're on the go or lounging."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "E-XFuz+G2z|Ev/_ucEq,"
+                },
+                "condition": {
+                  "type": "Value-comparison",
+                  "srcId": "X4]n;]?9xmg!1:d8#Sg!",
+                  "operator": "=",
+                  "value2": {
+                    "type": "Quote",
+                    "srcId": "CWj*-npjwyfA,dQEt}A?",
+                    "text": "athletic"
+                  },
+                  "value1": {
+                    "name": "5w=GPO{vqSp;8kf#?r[.",
+                    "type": "Get-var",
+                    "srcId": "Mn(|Y?6Q(4o}M=;)-|If"
+                  }
+                }
+              },
+              {
+                "type": "If-condition",
+                "thenExpression": {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "%}rnY1y;U:Jt[Kq3zTs!",
+                      "text": "Here it is the dress that fits in everywhere."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "YdJ7[0qf;2.)v_(,%9*t",
+                      "text": "Stay cool and comfortable in this dress."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "]^O_LXT3H^QLed^)~3.6",
+                      "text": "Step into this gorgeous dress which will be sure to turn heads."
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "S+6NY4tt$PODp$*.-MY4",
+                      "text": "It’s a cinch to update your style with this  dress—one that moves through your day effortlessly."
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "P?o=|yo5J:19XBhJmNU8"
+                },
+                "condition": {
+                  "type": "Value-comparison",
+                  "srcId": "Kb9|i@g)T$:ADnx^e}_#",
+                  "operator": "=",
+                  "value2": {
+                    "type": "Quote",
+                    "srcId": "ot@}6OC=~Uw$b=5h|=!*",
+                    "text": "dress"
+                  },
+                  "value1": {
+                    "name": "5w=GPO{vqSp;8kf#?r[.",
+                    "type": "Get-var",
+                    "srcId": "G^hv/Q%r,o.(H?,hQv4G"
+                  }
+                }
+              },
+              {
+                "type": "Default-condition",
+                "thenExpression": {
+                  "type": "Quote",
+                  "srcId": "d!Q4yW*ihQP*G[N4TyvA",
+                  "text": "It is suitable to wear for a wide range of casual events."
+                }
+              }
+            ],
+            "srcId": "xI90]yitJ$I2?me1gW0K"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "1lJI~$3ecx[({dX@Xx+h"
+      }
+    ],
+    "srcId": "wG8v~]RD#.3DcMCrlflA"
+  }
+}

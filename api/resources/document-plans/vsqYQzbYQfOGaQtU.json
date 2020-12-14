@@ -1,0 +1,263 @@
+{
+  "id": "vsqYQzbYQfOGaQtU",
+  "uid": "f6027932-ae4d-467e-8d10-aa28744f4eed",
+  "name": "Provide benefits",
+  "kind": "AMR",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"W4c#Ivefd.J6kn0bb3hp\">pull-on ease</variable><variable type=\"\" id=\"%po@iqRB{!Q8,M![9+hK\">comfortable fit</variable><variable type=\"\" id=\"HAN[_jC,7mU65_ea$LU@\">name part 3</variable><variable type=\"\" id=\"`Hp67z`if)2Ev(RpWXWr\">name part 2</variable><variable type=\"\" id=\"6Id*WKd(;fyjq*lUL9RK\">name part 1</variable><variable type=\"\" id=\"M@uf5eMK}ia!^UqSbbIa\">name</variable><variable type=\"\" id=\"GyH}.OHc@K*K[0pIR!U+\">type</variable><variable type=\"\" id=\"XP}ubfpEH.B%!gx1kB}U\">benefits</variable></variables><block type=\"Document-plan\" id=\"[~M@P{%B1P-(s2Q)[A.l\" deletable=\"false\" x=\"271\" y=\"-206\"><statement name=\"segments\"><block type=\"Define-var\" id=\"r*!{}r)VC{|5,/h0m2zW\" collapsed=\"true\"><field name=\"name\" id=\"W4c#Ivefd.J6kn0bb3hp\" variabletype=\"\">pull-on ease</field><value name=\"value\"><block type=\"AMR\" id=\"2J04KY22rbD@-03PuJR}\"><mutation concept_id=\"NiMQlZJtzgrzGGiK\" concept_kind=\"NP\" concept_label=\"NP\" roles=\"[{&quot;id&quot;:&quot;VjVRiwpXyURHeNDB&quot;,&quot;fieldLabel&quot;:&quot;Det&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;Card&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;Numeral&quot;,&quot;Det&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;VmHyZjuJdtgOwUAW&quot;,&quot;fieldLabel&quot;:&quot;CN&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"VjVRiwpXyURHeNDB\"><block type=\"AMR\" id=\"LWIuY]8x`nDro1h?o0R`\"><mutation concept_id=\"Syntax.a_Det/Det\" concept_kind=\"Det\" concept_label=\"a_Det\" roles=\"[]\"></mutation></block></value><value name=\"VmHyZjuJdtgOwUAW\"><block type=\"One-of-synonyms\" id=\"RmJhvk/}D45i,qLV_{ns\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"8v)Ayru=EP;9^iwGQC.2\"><field name=\"text\">pull-on ease</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"bp:}|/urqO@Tu-kw8?)*\"><field name=\"text\">easy slip-in</field></block></value></block></value></block></value><next><block type=\"Define-var\" id=\"thH%Q}oa-)j|Hy(K-5Qq\" collapsed=\"true\"><field name=\"name\" id=\"%po@iqRB{!Q8,M![9+hK\" variabletype=\"\">comfortable fit</field><value name=\"value\"><block type=\"AMR\" id=\"B=udekiCm^6qmzgQ~f:n\"><mutation concept_id=\"NiMQlZJtzgrzGGiK\" concept_kind=\"NP\" concept_label=\"NP\" roles=\"[{&quot;id&quot;:&quot;VjVRiwpXyURHeNDB&quot;,&quot;fieldLabel&quot;:&quot;Det&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;Card&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;Numeral&quot;,&quot;Det&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;VmHyZjuJdtgOwUAW&quot;,&quot;fieldLabel&quot;:&quot;CN&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"VjVRiwpXyURHeNDB\"><block type=\"AMR\" id=\"n?{l4:2]V4?smQvuoMX}\"><mutation concept_id=\"Syntax.a_Det/Det\" concept_kind=\"Det\" concept_label=\"a_Det\" roles=\"[]\"></mutation></block></value><value name=\"VmHyZjuJdtgOwUAW\"><block type=\"One-of-synonyms\" id=\"hRD(KZ1H[tT:Z;$8OIiT\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"URBs2|f!^D2bSQTxKU;(\"><field name=\"text\">totally comfortable fit</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"/m(Mn[u)NUkYGZuy7yl*\"><field name=\"text\">relaxed fit</field></block></value></block></value></block></value><next><block type=\"Segment\" id=\"?i+N=(LJK|s2u}O32YK*\"><mutation value_count=\"3\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"l47dKSWZqyn]c0JqnD[p\"><mutation concept_id=\"yLNcSXyZotzpXHHT\" concept_kind=\"Cl\" concept_label=\"Cl\" roles=\"[{&quot;id&quot;:&quot;RiMElRdAHNWcwmAl&quot;,&quot;fieldLabel&quot;:&quot;NP.1&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;RMPQbXwvSrSYiBbU&quot;,&quot;fieldLabel&quot;:&quot;V2&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;V&quot;,&quot;V2&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;kizJEpwUQroopLJp&quot;,&quot;fieldLabel&quot;:&quot;NP.2&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"RiMElRdAHNWcwmAl\"><block type=\"AMR\" id=\"@j1FJtx[j4v|{q*q^yy*\"><mutation concept_id=\"NexuGhMENtBpsfaq\" concept_kind=\"CN\" concept_label=\"NP: N CN\" roles=\"[{&quot;id&quot;:&quot;HEqkZImuohEekoFk&quot;,&quot;fieldLabel&quot;:&quot;N&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;idCdVPuIcBgsIQix&quot;,&quot;fieldLabel&quot;:&quot;CN&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"HEqkZImuohEekoFk\"><block type=\"Get-var\" id=\"`f%-qxe,dqUi(@DabYAl\"><field name=\"name\" id=\"M@uf5eMK}ia!^UqSbbIa\" variabletype=\"\">name</field></block></value><value name=\"idCdVPuIcBgsIQix\"><block type=\"Get-var\" id=\"p/^sE,OPsEt9#x9zMd%?\"><field name=\"name\" id=\"GyH}.OHc@K*K[0pIR!U+\" variabletype=\"\">type</field></block></value></block></value><value name=\"RMPQbXwvSrSYiBbU\"><block type=\"AMR\" id=\"CzXH^6+1suV^oWsG/P$/\"><mutation concept_id=\"ParadigmsEng.mkV2/Str-&gt;V2\" concept_kind=\"V2\" concept_label=\"mkV2\" roles=\"[{&quot;id&quot;:&quot;rrngkFzNxjKCjhap&quot;,&quot;fieldLabel&quot;:&quot;Str&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"rrngkFzNxjKCjhap\"><block type=\"One-of-synonyms\" id=\"g,qjG[$HJg!L(mPT8}69\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"Quote\" id=\"HTFTqM$_I1=T7r[H=dj-\"><field name=\"text\">provide</field></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"ZET9zgNl6wx3uK_f%75y\"><field name=\"text\">offer</field></block></value></block></value></block></value><value name=\"kizJEpwUQroopLJp\"><block type=\"If-then-else\" id=\"!He6vwrj/0jo]{Xg@mVo\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Value-comparison\" id=\");lLYw!tIweqF67zFI=s\"><field name=\"operator\">=</field><value name=\"value1\"><block type=\"Quote\" id=\"r!}z/5OZi;=j5arLl!EB\"><field name=\"text\">fleece</field></block></value><value name=\"value2\"><block type=\"Get-var\" id=\"K){`71V5~;2zhjgE15~.\"><field name=\"name\" id=\"XP}ubfpEH.B%!gx1kB}U\" variabletype=\"\">benefits</field></block></value></block></value><value name=\"then\"><block type=\"Sequence\" id=\"|IefEjrTiwmmRJ7y~~a`\"><mutation value_count=\"3\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"Get-var\" id=\"|2No02Sc~%Q[u!,8YF~E\"><field name=\"name\" id=\"W4c#Ivefd.J6kn0bb3hp\" variabletype=\"\">pull-on ease</field></block></value><value name=\"value_1\"><block type=\"Get-var\" id=\"3,e%3Y?kV3}AEx:B{eC~\"><field name=\"name\" id=\"%po@iqRB{!Q8,M![9+hK\" variabletype=\"\">comfortable fit</field></block></value></block></value><value name=\"else\"><block type=\"Sequence\" id=\"}$@c(x$=2-J^-B(a??z?\"><mutation value_count=\"3\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"Get-var\" id=\"IMumihn-c,QDV!Tm.Ke*\"><field name=\"name\" id=\"%po@iqRB{!Q8,M![9+hK\" variabletype=\"\">comfortable fit</field></block></value><value name=\"value_1\"><block type=\"Get-var\" id=\"IHcJoRCmEP4`-*Y=IR]*\"><field name=\"name\" id=\"W4c#Ivefd.J6kn0bb3hp\" variabletype=\"\">pull-on ease</field></block></value></block></value></block></value></block></value><value name=\"value_1\"><block type=\"Quote\" id=\"T;.aPr];_eMb9nYV$OlV\"><field name=\"text\">.</field></block></value></block></next></block></next></block></statement></block><block type=\"AMR\" id=\"D=xUr=2%lpJ6hB9Hd)JG\" x=\"767\" y=\"-182\"><mutation concept_id=\"SPtZlrjdjjzqYnPz\" concept_kind=\"NP\" concept_label=\"NP: N -&gt; N -&gt; N\" roles=\"[{&quot;id&quot;:&quot;QNSmSKFlpNhYimgr&quot;,&quot;fieldLabel&quot;:&quot;n.2&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;ZsujAGZALtQLWIXi&quot;,&quot;fieldLabel&quot;:&quot;n.3&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;PgvRJozFjlxiCGvX&quot;,&quot;fieldLabel&quot;:&quot;n.1&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"QNSmSKFlpNhYimgr\"><block type=\"If-then-else\" id=\"|i#WN#RH4FzyBCbqjhnu\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"(Y/%f*X8f5?FZ$z!0)1M\"><field name=\"name\" id=\"HAN[_jC,7mU65_ea$LU@\" variabletype=\"\">name part 3</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"4)n9_dn;vgj%=,1i=]sq\"><field name=\"name\" id=\"HAN[_jC,7mU65_ea$LU@\" variabletype=\"\">name part 3</field></block></value></block></value><value name=\"ZsujAGZALtQLWIXi\"><block type=\"If-then-else\" id=\"xuM!4U[xe9kK#Ixpp1vK\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"$MBaz77{N3dGj/Xi3osk\"><field name=\"name\" id=\"`Hp67z`if)2Ev(RpWXWr\" variabletype=\"\">name part 2</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"mH(F4E+eC5Ll3%t[t[sy\"><field name=\"name\" id=\"`Hp67z`if)2Ev(RpWXWr\" variabletype=\"\">name part 2</field></block></value></block></value><value name=\"PgvRJozFjlxiCGvX\"><block type=\"If-then-else\" id=\"]#yR7z$p:|1J,W[L@X$3\"><mutation else_if_count=\"0\"></mutation><value name=\"if\"><block type=\"Get-var\" id=\"k4kFlm!Xakriu5z)Q+nC\"><field name=\"name\" id=\"6Id*WKd(;fyjq*lUL9RK\" variabletype=\"\">name part 1</field></block></value><value name=\"then\"><block type=\"Get-var\" id=\"~j!SolP~O|bFRz/K|UCo\"><field name=\"name\" id=\"6Id*WKd(;fyjq*lUL9RK\" variabletype=\"\">name part 1</field></block></value></block></value></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "name": "W4c#Ivefd.J6kn0bb3hp",
+        "value": {
+          "roles": [
+            {
+              "children": [
+                {
+                  "type": "AMR",
+                  "srcId": "LWIuY]8x`nDro1h?o0R`",
+                  "conceptId": "Syntax.a_Det/Det",
+                  "kind": "Det"
+                }
+              ],
+              "name": "Det",
+              "label": "Det"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "8v)Ayru=EP;9^iwGQC.2",
+                      "text": "pull-on ease"
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "bp:}|/urqO@Tu-kw8?)*",
+                      "text": "easy slip-in"
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "RmJhvk/}D45i,qLV_{ns"
+                }
+              ],
+              "name": "CN",
+              "label": "CN"
+            }
+          ],
+          "type": "AMR",
+          "srcId": "2J04KY22rbD@-03PuJR}",
+          "conceptId": "NiMQlZJtzgrzGGiK",
+          "kind": "NP"
+        },
+        "type": "Define-var",
+        "srcId": "r*!{}r)VC{|5,/h0m2zW"
+      },
+      {
+        "name": "%po@iqRB{!Q8,M![9+hK",
+        "value": {
+          "roles": [
+            {
+              "children": [
+                {
+                  "type": "AMR",
+                  "srcId": "n?{l4:2]V4?smQvuoMX}",
+                  "conceptId": "Syntax.a_Det/Det",
+                  "kind": "Det"
+                }
+              ],
+              "name": "Det",
+              "label": "Det"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "Quote",
+                      "srcId": "URBs2|f!^D2bSQTxKU;(",
+                      "text": "totally comfortable fit"
+                    },
+                    {
+                      "type": "Quote",
+                      "srcId": "/m(Mn[u)NUkYGZuy7yl*",
+                      "text": "relaxed fit"
+                    }
+                  ],
+                  "type": "One-of-synonyms",
+                  "srcId": "hRD(KZ1H[tT:Z;$8OIiT"
+                }
+              ],
+              "name": "CN",
+              "label": "CN"
+            }
+          ],
+          "type": "AMR",
+          "srcId": "B=udekiCm^6qmzgQ~f:n",
+          "conceptId": "NiMQlZJtzgrzGGiK",
+          "kind": "NP"
+        },
+        "type": "Define-var",
+        "srcId": "thH%Q}oa-)j|Hy(K-5Qq"
+      },
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "name": "M@uf5eMK}ia!^UqSbbIa",
+                            "type": "Get-var",
+                            "srcId": "`f%-qxe,dqUi(@DabYAl"
+                          }
+                        ],
+                        "name": "N",
+                        "label": "N"
+                      },
+                      {
+                        "children": [
+                          {
+                            "name": "GyH}.OHc@K*K[0pIR!U+",
+                            "type": "Get-var",
+                            "srcId": "p/^sE,OPsEt9#x9zMd%?"
+                          }
+                        ],
+                        "name": "CN",
+                        "label": "CN"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "@j1FJtx[j4v|{q*q^yy*",
+                    "conceptId": "NexuGhMENtBpsfaq",
+                    "kind": "CN"
+                  }
+                ],
+                "name": "NP",
+                "label": "NP.1"
+              },
+              {
+                "children": [
+                  {
+                    "roles": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "type": "Quote",
+                                "srcId": "HTFTqM$_I1=T7r[H=dj-",
+                                "text": "provide"
+                              },
+                              {
+                                "type": "Quote",
+                                "srcId": "ZET9zgNl6wx3uK_f%75y",
+                                "text": "offer"
+                              }
+                            ],
+                            "type": "One-of-synonyms",
+                            "srcId": "g,qjG[$HJg!L(mPT8}69"
+                          }
+                        ],
+                        "name": "Str",
+                        "label": "Str"
+                      }
+                    ],
+                    "type": "AMR",
+                    "srcId": "CzXH^6+1suV^oWsG/P$/",
+                    "conceptId": "ParadigmsEng.mkV2/Str->V2",
+                    "kind": "V2"
+                  }
+                ],
+                "name": "V2",
+                "label": "V2"
+              },
+              {
+                "children": [
+                  {
+                    "type": "If-then-else",
+                    "conditions": [
+                      {
+                        "type": "If-condition",
+                        "thenExpression": {
+                          "children": [
+                            {
+                              "name": "W4c#Ivefd.J6kn0bb3hp",
+                              "type": "Get-var",
+                              "srcId": "|2No02Sc~%Q[u!,8YF~E"
+                            },
+                            {
+                              "name": "%po@iqRB{!Q8,M![9+hK",
+                              "type": "Get-var",
+                              "srcId": "3,e%3Y?kV3}AEx:B{eC~"
+                            }
+                          ],
+                          "type": "Sequence",
+                          "srcId": "|IefEjrTiwmmRJ7y~~a`"
+                        },
+                        "condition": {
+                          "type": "Value-comparison",
+                          "srcId": ");lLYw!tIweqF67zFI=s",
+                          "operator": "=",
+                          "value2": {
+                            "name": "XP}ubfpEH.B%!gx1kB}U",
+                            "type": "Get-var",
+                            "srcId": "K){`71V5~;2zhjgE15~."
+                          },
+                          "value1": {
+                            "type": "Quote",
+                            "srcId": "r!}z/5OZi;=j5arLl!EB",
+                            "text": "fleece"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Default-condition",
+                        "thenExpression": {
+                          "children": [
+                            {
+                              "name": "%po@iqRB{!Q8,M![9+hK",
+                              "type": "Get-var",
+                              "srcId": "IMumihn-c,QDV!Tm.Ke*"
+                            },
+                            {
+                              "name": "W4c#Ivefd.J6kn0bb3hp",
+                              "type": "Get-var",
+                              "srcId": "IHcJoRCmEP4`-*Y=IR]*"
+                            }
+                          ],
+                          "type": "Sequence",
+                          "srcId": "}$@c(x$=2-J^-B(a??z?"
+                        }
+                      }
+                    ],
+                    "srcId": "!He6vwrj/0jo]{Xg@mVo"
+                  }
+                ],
+                "name": "NP",
+                "label": "NP.2"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "l47dKSWZqyn]c0JqnD[p",
+            "conceptId": "yLNcSXyZotzpXHHT",
+            "kind": "Cl"
+          },
+          {
+            "type": "Quote",
+            "srcId": "T;.aPr];_eMb9nYV$OlV",
+            "text": "."
+          }
+        ],
+        "type": "Segment",
+        "srcId": "?i+N=(LJK|s2u}O32YK*"
+      }
+    ],
+    "srcId": "[~M@P{%B1P-(s2Q)[A.l"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "cNxEsFRxdHZmFfKT",
+  "uid": "c267ec34-8979-4f03-b20a-d9d603d7ec0c",
+  "name": "Pants",
+  "kind": "Document",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"Document-plan\" id=\"WnOd:+BJb0x4HX`P-9-;\" deletable=\"false\" x=\"837\" y=\"134\"><statement name=\"segments\"><block type=\"Segment\" id=\"[W7GQQSM1PFh5G,FT9gA\"><mutation value_count=\"5\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"S4aK0jae+Yi#S.62YJ*l\"><mutation concept_id=\"vsqYQzbYQfOGaQtU\" concept_kind=\"Str\" concept_label=\"Provide benefits\" roles=\"[{&quot;id&quot;:&quot;eqmGZtWPVgqevPHl&quot;,&quot;fieldLabel&quot;:&quot;name&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;TYNuSmoMcmfWozbC&quot;,&quot;fieldLabel&quot;:&quot;type&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;N3&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;CN&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;rzkJDijkTzRLjWAN&quot;,&quot;fieldLabel&quot;:&quot;benefits&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;,&quot;Unit&quot;,&quot;Pron&quot;,&quot;Dig&quot;,&quot;Digits&quot;,&quot;Sub1000&quot;,&quot;N3&quot;,&quot;Card&quot;,&quot;PN&quot;,&quot;Quant&quot;,&quot;Sub100&quot;,&quot;CN&quot;,&quot;Numeral&quot;,&quot;N&quot;,&quot;N2&quot;,&quot;Det&quot;,&quot;NP&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"eqmGZtWPVgqevPHl\"><block type=\"Cell-modifier\" id=\"3k:ncfjZRa}UzHlMOP1u\"><field name=\"name\">Design</field><value name=\"child\"><block type=\"Cell\" id=\"|i]W.aEVCwI~,?s(!J]D\"><field name=\"name\">product</field></block></value></block></value><value name=\"TYNuSmoMcmfWozbC\"><block type=\"Cell\" id=\"OF9=Q@0%3Bn(h.O,kE2Z\"><field name=\"name\">Sub-category</field></block></value><value name=\"rzkJDijkTzRLjWAN\"><block type=\"Cell\" id=\"i0|^X#4HOD7.87310ZTY\"><field name=\"name\">Design</field></block></value></block></value><value name=\"value_1\"><block type=\"Shuffle\" id=\")MMR2PY8ibT-RbBzi-/9\"><mutation value_count=\"3\"></mutation><value name=\"value_0\"><block type=\"AMR\" id=\"(gw}mx}*o:C96+Eo}9Kj\"><mutation concept_id=\"mLzeFdaEixkeKxCH\" concept_kind=\"Str\" concept_label=\"Ideal choice for\" roles=\"[{&quot;id&quot;:&quot;KPiHLqmbUPmrhQHq&quot;,&quot;fieldLabel&quot;:&quot;Sub-category&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"KPiHLqmbUPmrhQHq\"><block type=\"Cell\" id=\"/1:a2f^JE8.:LzpeAVes\"><field name=\"name\">Sub-category</field></block></value></block></value><value name=\"value_1\"><block type=\"AMR\" id=\"7Cy|buWK2Ck#wERFB|]5\"><mutation concept_id=\"wvJYxoxvppqmvesj\" concept_kind=\"Str\" concept_label=\"Availability\" roles=\"[{&quot;id&quot;:&quot;OjuxQbFbWhyNvISN&quot;,&quot;fieldLabel&quot;:&quot;color&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;},{&quot;id&quot;:&quot;BpsoKBoIxmryVUtK&quot;,&quot;fieldLabel&quot;:&quot;size&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"OjuxQbFbWhyNvISN\"><block type=\"Cell\" id=\"(5t50Q+6Ws99]gJNn+!;\"><field name=\"name\">Color</field></block></value></block></value></block></value><value name=\"value_2\"><block type=\"AMR\" id=\"uFD2daPiU79=CCM|OrXL\"><mutation concept_id=\"xnEbPoxNSldcLzNI\" concept_kind=\"Str\" concept_label=\"Pair with\" roles=\"[{&quot;id&quot;:&quot;blUkvcUZcfTopOKq&quot;,&quot;fieldLabel&quot;:&quot;products&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"blUkvcUZcfTopOKq\"><block type=\"Sequence\" id=\"JBMQ94X4-GkE8{UfwTNl\"><mutation value_count=\"3\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"Cell\" id=\"2vDG{UUEPc?VrQtT!%op\"><field name=\"name\">Pair with 1</field></block></value><value name=\"value_1\"><block type=\"Cell\" id=\"N(WE:Y:Xd$(+]{l._bvb\"><field name=\"name\">Pair with 2</field></block></value></block></value></block></value><value name=\"value_3\"><block type=\"AMR\" id=\"cgt.bn4po.C2A(NXT5~r\"><mutation concept_id=\"fVchtudGKckEdFud\" concept_kind=\"Str\" concept_label=\"Pitch\" roles=\"[{&quot;id&quot;:&quot;CNsgaogCVBhEXnhv&quot;,&quot;fieldLabel&quot;:&quot;type&quot;,&quot;fieldType&quot;:[&quot;List&quot;,&quot;Str&quot;],&quot;__typename&quot;:&quot;ThematicRole&quot;}]\"></mutation><value name=\"CNsgaogCVBhEXnhv\"><block type=\"Cell\" id=\"Y~!^;^xFFf]:V.g80|~l\"><field name=\"name\">Pitch type</field></block></value></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "name": "Design",
+                    "type": "Cell-modifier",
+                    "srcId": "3k:ncfjZRa}UzHlMOP1u",
+                    "child": {
+                      "name": "product",
+                      "type": "Cell",
+                      "srcId": "|i]W.aEVCwI~,?s(!J]D"
+                    }
+                  }
+                ],
+                "name": "N",
+                "label": "name"
+              },
+              {
+                "children": [
+                  {
+                    "name": "Sub-category",
+                    "type": "Cell",
+                    "srcId": "OF9=Q@0%3Bn(h.O,kE2Z"
+                  }
+                ],
+                "name": "CN",
+                "label": "type"
+              },
+              {
+                "children": [
+                  {
+                    "name": "Design",
+                    "type": "Cell",
+                    "srcId": "i0|^X#4HOD7.87310ZTY"
+                  }
+                ],
+                "name": "NP",
+                "label": "benefits"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "S4aK0jae+Yi#S.62YJ*l",
+            "conceptId": "vsqYQzbYQfOGaQtU",
+            "kind": "Str"
+          },
+          {
+            "children": [
+              {
+                "roles": [
+                  {
+                    "children": [
+                      {
+                        "name": "Sub-category",
+                        "type": "Cell",
+                        "srcId": "/1:a2f^JE8.:LzpeAVes"
+                      }
+                    ],
+                    "name": "Str",
+                    "label": "Sub-category"
+                  }
+                ],
+                "type": "AMR",
+                "srcId": "(gw}mx}*o:C96+Eo}9Kj",
+                "conceptId": "mLzeFdaEixkeKxCH",
+                "kind": "Str"
+              },
+              {
+                "roles": [
+                  {
+                    "children": [
+                      {
+                        "name": "Color",
+                        "type": "Cell",
+                        "srcId": "(5t50Q+6Ws99]gJNn+!;"
+                      }
+                    ],
+                    "name": "Str",
+                    "label": "color"
+                  },
+                  {
+                    "children": [],
+                    "name": "Str",
+                    "label": "size"
+                  }
+                ],
+                "type": "AMR",
+                "srcId": "7Cy|buWK2Ck#wERFB|]5",
+                "conceptId": "wvJYxoxvppqmvesj",
+                "kind": "Str"
+              }
+            ],
+            "type": "Shuffle",
+            "srcId": ")MMR2PY8ibT-RbBzi-/9"
+          },
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "Pair with 1",
+                        "type": "Cell",
+                        "srcId": "2vDG{UUEPc?VrQtT!%op"
+                      },
+                      {
+                        "name": "Pair with 2",
+                        "type": "Cell",
+                        "srcId": "N(WE:Y:Xd$(+]{l._bvb"
+                      }
+                    ],
+                    "type": "Sequence",
+                    "srcId": "JBMQ94X4-GkE8{UfwTNl"
+                  }
+                ],
+                "name": "Str",
+                "label": "products"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "uFD2daPiU79=CCM|OrXL",
+            "conceptId": "xnEbPoxNSldcLzNI",
+            "kind": "Str"
+          },
+          {
+            "roles": [
+              {
+                "children": [
+                  {
+                    "name": "Pitch type",
+                    "type": "Cell",
+                    "srcId": "Y~!^;^xFFf]:V.g80|~l"
+                  }
+                ],
+                "name": "Str",
+                "label": "type"
+              }
+            ],
+            "type": "AMR",
+            "srcId": "cgt.bn4po.C2A(NXT5~r",
+            "conceptId": "fVchtudGKckEdFud",
+            "kind": "Str"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "[W7GQQSM1PFh5G,FT9gA"
+      }
+    ],
+    "srcId": "WnOd:+BJb0x4HX`P-9-;"
+  }
+}

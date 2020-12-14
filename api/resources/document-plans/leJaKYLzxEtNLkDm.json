@@ -1,0 +1,24 @@
+{
+  "id": "leJaKYLzxEtNLkDm",
+  "uid": "0bcc28d4-ddeb-4e9d-8c46-94fb0548f1f7",
+  "name": "NPs",
+  "kind": "RGL",
+  "blocklyXml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables><variable type=\"\" id=\"{|Goc2ZQ$DFMc(d@XLro\">nps</variable></variables><block type=\"Document-plan\" id=\"Z/nNubJOKs=o-8+A,8H4\" deletable=\"false\" x=\"629\" y=\"121\"><statement name=\"segments\"><block type=\"Segment\" id=\"}pG.$lb8_1[}_f^(!8~l\"><mutation value_count=\"1\" value_sequence=\"value_\"></mutation><value name=\"value_0\"><block type=\"Get-var\" id=\"!a],j3-j76???Yn6rKeD\"><field name=\"name\" id=\"{|Goc2ZQ$DFMc(d@XLro\" variabletype=\"\">nps</field></block></value></block></statement></block></xml>",
+  "documentPlan": {
+    "type": "Document-plan",
+    "segments": [
+      {
+        "children": [
+          {
+            "name": "{|Goc2ZQ$DFMc(d@XLro",
+            "type": "Get-var",
+            "srcId": "!a],j3-j76???Yn6rKeD"
+          }
+        ],
+        "type": "Segment",
+        "srcId": "}pG.$lb8_1[}_f^(!8~l"
+      }
+    ],
+    "srcId": "Z/nNubJOKs=o-8+A,8H4"
+  }
+}
