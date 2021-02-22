@@ -23,6 +23,7 @@ privide the product descriptions.
 - Upload CSV. **Hint:** you can use csv provided in `data` folder of this project. For `Pants` document plan use `pants.csv`
 
 - Press `Import CSV` and wait till all of the products are uploaded
+- Use Admin panel to publish imported items and they will appear in a demo shop at - [localhost:4000](http://localhost:4000)
 
 # Changing Descriptions
 
